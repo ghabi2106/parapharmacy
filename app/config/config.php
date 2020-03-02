@@ -15,3 +15,4 @@
   define('SITENAME', 'Parapharmacy');
   // App Version
   define('APPVERSION', '1.0.0');
+  

@@ -19,7 +19,7 @@
 		
 		<link rel="pingback" href="xmlrpc.php">
 
-		<link type="text/css" media="all" href="wp-content/cache/autoptimize/css/autoptimize_f768e0fe59fb71b9c6f4f14624ed7ae2.css" rel="stylesheet" /><title>Accueil - Laboratoire PediAct, spécialiste de la pédiatrie</title>
+		<link type="text/css" media="all" href="<?php echo URLROOT; ?>/wp-content/cache/autoptimize/css/autoptimize_f768e0fe59fb71b9c6f4f14624ed7ae2.css" rel="stylesheet" /><title>Accueil - Laboratoire PediAct, spécialiste de la pédiatrie</title>
 
 <!-- This site is optimized with the Yoast SEO plugin v12.5.1 - https://yoast.com/wordpress/plugins/seo/ -->
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
