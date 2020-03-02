@@ -5,9 +5,6 @@
     }
     
     public function index(){
-      /* if(isLoggedIn()){
-        redirect('categories');
-      } */
 
       $data = [
         'title' => 'Pharmacy',
