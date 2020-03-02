@@ -14,9 +14,11 @@ class Categories extends Controller
   {
     // Get categories
     $categories = $this->categoryModel->getCategories();
+    $colors = array("theme-green", "theme-orange", "theme-blue", "theme-blue", "theme-purple", "theme-green", "theme-yellow");
 
     $data = [
-      'categories' => $categories
+      'categories' => $categories,
+      'colors' => $colors
     ];
 
     $this->view('categories/index', $data);

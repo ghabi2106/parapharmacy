@@ -28,10 +28,7 @@
 
                               <figure class="wpb_wrapper vc_figure">
                                 <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                  <img width="375" height="64" 
-                                  src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/LogoPediAct.png" 
-                                  class="vc_single_image-img attachment-full" alt="" 
-                                  sizes="(max-width: 375px) 100vw, 375px" />
+                                  <img width="375" height="64" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/LogoPediAct.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 375px) 100vw, 375px" />
                                 </div>
                               </figure>
                             </div>
@@ -71,10 +68,7 @@
 
                               <figure class="wpb_wrapper vc_figure">
                                 <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                  <img width="375" height="64" 
-                                  src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/LogoPediAct.png" 
-                                  class="vc_single_image-img attachment-full" alt="" 
-                                  sizes="(max-width: 375px) 100vw, 375px" />
+                                  <img width="375" height="64" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/LogoPediAct.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 375px) 100vw, 375px" />
                                 </div>
                               </figure>
                             </div>
@@ -95,7 +89,7 @@
                     <div class="wpb_single_image wpb_content_element vc_align_center   img-mobile">
 
                       <figure class="wpb_wrapper vc_figure">
-                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="600" height="599" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/capricare-mobile-pediact-600.png" class="vc_single_image-img attachment-full" alt=""  sizes="(max-width: 600px) 100vw, 600px" /></div>
+                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="600" height="599" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/capricare-mobile-pediact-600.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 600px) 100vw, 600px" /></div>
                       </figure>
                     </div>
                   </div>
@@ -114,10 +108,7 @@
 
                               <figure class="wpb_wrapper vc_figure">
                                 <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                  <img width="375" height="64" 
-                                  src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/LogoPediAct.png" 
-                                  class="vc_single_image-img attachment-full" alt="" 
-                                  sizes="(max-width: 375px) 100vw, 375px" />
+                                  <img width="375" height="64" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/LogoPediAct.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 375px) 100vw, 375px" />
                                 </div>
                               </figure>
                             </div>
@@ -181,216 +172,44 @@
               <div class="homepage-new--discover wpb_column vc_column_container vc_col-sm-12">
                 <div class="vc_column-inner ">
                   <div class="wpb_wrapper">
-                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                      <div class="wpb_column vc_column_container vc_col-sm-12">
-                        <div class="vc_column-inner ">
-                          <div class="wpb_wrapper">
-                            <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1558536168695">
+                    <?php foreach ($data['categories'] as $index=>$category) : ?>
+                      <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                        <div class="wpb_column vc_column_container vc_col-sm-12">
+                          <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                              <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1558536168695">
 
-                              <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="<?php echo URLROOT; ?>/wp-content/uploads/2019/05/biogaia-logo.svg" class="vc_single_image-img attachment-full" alt="" /></div>
-                              </figure>
-                            </div>
+                                <figure class="wpb_wrapper vc_figure">
+                                  <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                    <img src="<?php echo URLROOT; ?>/img/uploads/categories/<?php echo $category->img1; ?>" class="vc_single_image-img attachment-full" alt="" />
+                                  </div>
+                                </figure>
+                              </div>
 
-                            <div class="wpb_text_column wpb_content_element ">
-                              <div class="wpb_wrapper">
-                                <p style="text-align: center;">Gamme BioGaia®</p>
+                              <div class="wpb_text_column wpb_content_element ">
+                                <div class="wpb_wrapper">
+                                  <p style="text-align: center;"><?php echo $category->title; ?></p>
+                                </div>
+                              </div>
 
+                              <div class="wpb_single_image wpb_content_element vc_align_center   product-img">
+
+                                <figure class="wpb_wrapper vc_figure">
+                                  <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                    <img width="290" height="303" src="<?php echo URLROOT; ?>/img/uploads/categories/<?php echo $category->img; ?>" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 290px) 100vw, 290px" />
+                                  </div>
+                                </figure>
+                              </div>
+                              <div class="vc_btn3-container  generic-button-homepage <?php echo (!empty($data['colors'][$index])) ? $data['colors'][$index] : ''; ?> vc_btn3-center">
+                                <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-color-grey" href="<?php echo URLROOT; ?>/categories/show/<?php echo $categories->id; ?>" title="">
+                                  voir les produits
+                                </a>
                               </div>
                             </div>
-
-                            <div class="wpb_single_image wpb_content_element vc_align_center   product-img">
-
-                              <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="290" height="303" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/biogaia-pediact.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 290px) 100vw, 290px" /></div>
-                              </figure>
-                            </div>
-                            <div class="vc_btn3-container  generic-button-homepage vc_btn3-center">
-                              <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-color-grey" href="biogaia/index10eb.html?produit=gouttes" title="">voir les produits</a></div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                      <div class="wpb_column vc_column_container vc_col-sm-12">
-                        <div class="vc_column-inner ">
-                          <div class="wpb_wrapper">
-                            <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1569267262708">
-
-                              <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="<?php echo URLROOT; ?>/wp-content/uploads/2019/05/capricare-logo.svg" class="vc_single_image-img attachment-full" alt="" /></div>
-                              </figure>
-                            </div>
-
-                            <div class="wpb_text_column wpb_content_element ">
-                              <div class="wpb_wrapper">
-                                <p style="text-align: center;">Gamme Capricare®</p>
-
-                              </div>
-                            </div>
-
-                            <div class="wpb_single_image wpb_content_element vc_align_center   product-img">
-
-                              <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="290" height="297" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/capricare-pediact.png" class="vc_single_image-img attachment-full" alt="" /></div>
-                              </figure>
-                            </div>
-                            <div class="vc_btn3-container  generic-button-homepage theme-green vc_btn3-center">
-                              <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-color-grey" href="capricare/index5c1c.html?produit=deuxieme-age" title="">voir les produits</a></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                      <div class="wpb_column vc_column_container vc_col-sm-12">
-                        <div class="vc_column-inner ">
-                          <div class="wpb_wrapper">
-                            <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1558536200143">
-
-                              <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="<?php echo URLROOT; ?>/wp-content/uploads/2019/05/poxclin-logo.svg" class="vc_single_image-img attachment-full" alt="" /></div>
-                              </figure>
-                            </div>
-
-                            <div class="wpb_text_column wpb_content_element ">
-                              <div class="wpb_wrapper">
-                                <p style="text-align: center;">Gamme PoxClin®</p>
-
-                              </div>
-                            </div>
-
-                            <div class="wpb_single_image wpb_content_element vc_align_center   product-img">
-
-                              <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="290" height="290" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/poxclin-pediact.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 290px) 100vw, 290px" /></div>
-                              </figure>
-                            </div>
-                            <div class="vc_btn3-container  generic-button-homepage theme-orange vc_btn3-center">
-                              <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-color-grey" href="poxclin/indexe2ee.html?produit=demangeaisons" title="">voir les produits</a></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                      <div class="wpb_column vc_column_container vc_col-sm-12">
-                        <div class="vc_column-inner ">
-                          <div class="wpb_wrapper">
-                            <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1558536360589">
-
-                              <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="<?php echo URLROOT; ?>/wp-content/uploads/2019/05/kidsclin-logo.svg" class="vc_single_image-img attachment-full" alt="" /></div>
-                              </figure>
-                            </div>
-
-                            <div class="wpb_text_column wpb_content_element ">
-                              <div class="wpb_wrapper">
-                                <p style="text-align: center;">Gamme KidsClin®</p>
-
-                              </div>
-                            </div>
-
-                            <div class="wpb_single_image wpb_content_element vc_align_center   product-img">
-
-                              <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="290" height="308" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/kidsclin-pediact.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 290px) 100vw, 290px" /></div>
-                              </figure>
-                            </div>
-                            <div class="vc_btn3-container  generic-button-homepage theme-blue vc_btn3-center">
-                              <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-color-grey" href="kidsclin/index48f3.html?produit=erytheme-fessier" title="">voir les produits</a></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                      <div class="wpb_column vc_column_container vc_col-sm-12">
-                        <div class="vc_column-inner ">
-                          <div class="wpb_wrapper">
-                            <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1558536302426">
-
-                              <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="<?php echo URLROOT; ?>/wp-content/uploads/2019/05/linfovir-logo.svg" class="vc_single_image-img attachment-full" alt="" /></div>
-                              </figure>
-                            </div>
-
-                            <div class="wpb_text_column wpb_content_element ">
-                              <div class="wpb_wrapper">
-                                <p style="text-align: center;">LinfoVir® Plus</p>
-
-                              </div>
-                            </div>
-
-                            <div class="wpb_single_image wpb_content_element vc_align_center   product-img">
-
-                              <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="290" height="290" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/linfovir-pediact.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 290px) 100vw, 290px" /></div>
-                              </figure>
-                            </div>
-                            <div class="vc_btn3-container  generic-button-homepage theme-blue vc_btn3-center">
-                              <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-color-grey" href="linfovir-plus/index.html" title="">voir le produit</a></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                      <div class="wpb_column vc_column_container vc_col-sm-12">
-                        <div class="vc_column-inner ">
-                          <div class="wpb_wrapper">
-                            <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1558536436762">
-
-                              <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="<?php echo URLROOT; ?>/wp-content/uploads/2019/05/pharyndol-logo.svg" class="vc_single_image-img attachment-full" alt="" /></div>
-                              </figure>
-                            </div>
-
-                            <div class="wpb_text_column wpb_content_element ">
-                              <div class="wpb_wrapper">
-                                <p style="text-align: center;">Gamme Pharyndol®</p>
-
-                              </div>
-                            </div>
-
-                            <div class="wpb_single_image wpb_content_element vc_align_center   product-img">
-
-                              <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="290" height="312" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/pharyndol-pediact.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 290px) 100vw, 290px" /></div>
-                              </figure>
-                            </div>
-                            <div class="vc_btn3-container  generic-button-homepage theme-purple vc_btn3-center">
-                              <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-color-grey" href="pharyndol/index29eb.html?produit=adulte" title="">voir les produits</a></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                      <div class="wpb_column vc_column_container vc_col-sm-12">
-                        <div class="vc_column-inner ">
-                          <div class="wpb_wrapper">
-                            <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1558536495626">
-
-                              <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="wp-content/uploads/2019/05/tipshaler-logo.svg" class="vc_single_image-img attachment-full" alt="" /></div>
-                              </figure>
-                            </div>
-
-                            <div class="wpb_text_column wpb_content_element ">
-                              <div class="wpb_wrapper">
-                                <p style="text-align: center;">Gamme TipsHaler®</p>
-
-                              </div>
-                            </div>
-
-                            <div class="wpb_single_image wpb_content_element vc_align_center   product-img">
-
-                              <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="290" height="284" src="<?php echo URLROOT; ?>/wp-content/uploads/2020/01/Tipshaler-Produit-new.png" class="vc_single_image-img attachment-full" alt="" /></div>
-                              </figure>
-                            </div>
-                            <div class="vc_btn3-container  generic-button-homepage theme-green vc_btn3-center">
-                              <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-color-grey" href="tips-haler/indexa957.html?produit=masque-adulte" title="">voir les produits</a></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <?php endforeach; ?>
                   </div>
                 </div>
               </div>
@@ -625,10 +444,7 @@
                         <article class="post-item autres-sujets">
                           <div class="post-item--top">
                             <div class="post-item--img">
-                              <img width="300" height="199" src="<?php echo URLROOT; ?>/wp-content/uploads/2020/02/pediact-cigarette-electronique-300x199.png" 
-                              class="attachment-medium size-medium wp-post-image" 
-                              alt="dangers-cigarette-electronique"
-                                sizes="(max-width: 300px) 100vw, 300px" />
+                              <img width="300" height="199" src="<?php echo URLROOT; ?>/wp-content/uploads/2020/02/pediact-cigarette-electronique-300x199.png" class="attachment-medium size-medium wp-post-image" alt="dangers-cigarette-electronique" sizes="(max-width: 300px) 100vw, 300px" />
                             </div>
                           </div>
                           <div class="post-item--bottom">

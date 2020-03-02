@@ -184,7 +184,7 @@
     var leadin_wordpress = {
         "userRole": "visitor",
         "pageType": "home",
-        "leadinPluginVersion": "7.17.2"  
+        "leadinPluginVersion": "7.17.2"
     };
     /* ]]> */
 </script>
