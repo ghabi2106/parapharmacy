@@ -1,0 +1,5 @@
+{
+    "require": {
+        "voku/pagination": "^3.0"
+    }
+}

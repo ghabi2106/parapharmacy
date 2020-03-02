@@ -1,0 +1,12 @@
+.products-bottom-wrap nav.woocommerce-pagination ul li {
+    padding: 10px 15px;
+    font-weight: 700;
+    position: relative;
+    float: left;
+    line-height: 1.62857;
+    text-decoration: none;
+    color: gray;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+}
