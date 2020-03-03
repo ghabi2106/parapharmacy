@@ -201,7 +201,7 @@
                                 </figure>
                               </div>
                               <div class="vc_btn3-container  generic-button-homepage <?php echo (!empty($data['colors'][$index])) ? $data['colors'][$index] : ''; ?> vc_btn3-center">
-                                <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-color-grey" href="<?php echo URLROOT; ?>/categories/show/<?php echo $categories->id; ?>" title="">
+                                <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-color-grey" href="<?php echo URLROOT; ?>/categories/show/<?php echo $category->id; ?>" title="">
                                   voir les produits
                                 </a>
                               </div>
