@@ -18,9 +18,10 @@
                   <div class="wpb_wrapper">
                     <div class="wpb_text_column wpb_content_element  hero--title generic-wrapper">
                       <div class="wpb_wrapper">
-                        <h1>La gamme BioGaia®</h1>
-                        <p><em>Lactobacillus reuteri</em> Protectis®</p>
-                        <p>(DSM 17938)</p>
+                        <h1><?php echo $category->title; ?></h1>
+                        <!-- <p><em>Lactobacillus reuteri</em> Protectis®</p>
+                        <p>(DSM 17938)</p> -->
+                        <p><?php echo $category->body; ?></p>
 
                       </div>
                     </div>
@@ -33,14 +34,14 @@
           <section id="section--product-tabs" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_section">
             <div class="vc_row wpb_row vc_row-fluid product-tabs--row generic-wrapper vc_row-o-equal-height vc_row-flex">
               <?php foreach ($data['pharmaceuticals'] as $pharmaceutical) : ?>
-                <div class="product-tabs--column <?php echo (!empty($data['colors'][$index])) ? $data['colors'][$index] : 'theme-orange'; ?> wpb_column vc_column_container vc_col-sm-3">
+                <div class="product-tabs--column theme-<?php echo (!empty($pharmaceutical->color)) ? $pharmaceutical->color : 'orange'; ?> wpb_column vc_column_container vc_col-sm-3">
                   <div class="vc_column-inner ">
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element  product-tabs--tab">
                         <div class="wpb_wrapper">
-                          <p>Stilligoutte</p>
-                          <h2><?php echo $pharmaceutical->title; ?> Gouttes</h2>
-                          <p>Flacon de 5 ml</p>
+                          <p><?php echo $pharmaceutical->type; ?></p>
+                          <h2><?php echo $pharmaceutical->title; ?></h2>
+                          <p><?php echo $pharmaceutical->volume; ?></p>
                         </div>
                       </div>
                       <div class="vc_btn3-container  product-tabs--button gouttes vc_btn3-right">
@@ -107,8 +108,8 @@
                   <div class="wpb_wrapper">
                     <div class="wpb_text_column wpb_content_element  generic-title-alt product-content--title">
                       <div class="wpb_wrapper">
-                        <p>BioGaia® Gouttes</p>
-                        <h3>Stilligoutte de 5 mL</h3>
+                        <p><?php echo $pharmaceutical->title; ?></p>
+                        <h3><?php echo $pharmaceutical->title1; ?></h3>
 
                       </div>
                     </div>
