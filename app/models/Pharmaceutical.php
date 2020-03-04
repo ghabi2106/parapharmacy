@@ -38,7 +38,10 @@ class Pharmaceutical
 
   public function getBycategoryId_pagination($category_id, $limit_num)
   {
-    $this->db->query('SELECT * FROM pharmaceuticals WHERE category_id = :category_id ' . $limit_num);
+    $this->db->query('SELECT pharmaceuticals.*, pharmaceutical_details.* FROM pharmaceuticals 
+      INNER JOIN pharmaceutical_details
+      ON pharmaceuticals.id = pharmaceutical_details.id
+      WHERE category_id = :category_id ' . $limit_num);
     $this->db->bind(':category_id', $category_id);
 
     $results = $this->db->resultSet();

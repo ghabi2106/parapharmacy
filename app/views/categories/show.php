@@ -1,22 +1,10 @@
 <?php require APPROOT . '/views/inc/header.php'; ?>
 
-
-
-
-
-
-
-
-
-
-</div>
-
 <div id="content">
 
   <div id="inner-content" class="row">
 
     <main id="main" class="large-12 medium-12 columns" role="main">
-
 
       <div id="post-41615" class="post-41615 page type-page status-publish hentry" role="article">
         <!-- <header class="article-header">
@@ -44,8 +32,8 @@
           <div class="vc_row-full-width vc_clearfix"></div>
           <section id="section--product-tabs" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_section">
             <div class="vc_row wpb_row vc_row-fluid product-tabs--row generic-wrapper vc_row-o-equal-height vc_row-flex">
-            <?php foreach ($data['pharmaceuticals'] as $pharmaceutical) : ?>
-                <div class="product-tabs--column theme-yellow wpb_column vc_column_container vc_col-sm-3">
+              <?php foreach ($data['pharmaceuticals'] as $pharmaceutical) : ?>
+                <div class="product-tabs--column <?php echo (!empty($data['colors'][$index])) ? $data['colors'][$index] : 'theme-orange'; ?> wpb_column vc_column_container vc_col-sm-3">
                   <div class="vc_column-inner ">
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element  product-tabs--tab">
@@ -53,7 +41,6 @@
                           <p>Stilligoutte</p>
                           <h2><?php echo $pharmaceutical->title; ?> Gouttes</h2>
                           <p>Flacon de 5 ml</p>
-
                         </div>
                       </div>
                       <div class="vc_btn3-container  product-tabs--button gouttes vc_btn3-right">
@@ -61,8 +48,8 @@
                     </div>
                   </div>
                 </div>
-              <?php endforeach; ?>  
-                <!-- <div class="product-tabs--column theme-yellow wpb_column vc_column_container vc_col-sm-3">
+              <?php endforeach; ?>
+              <!-- <div class="product-tabs--column theme-yellow wpb_column vc_column_container vc_col-sm-3">
                   <div class="vc_column-inner ">
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element  product-tabs--tab">

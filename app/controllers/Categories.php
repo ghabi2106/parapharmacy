@@ -14,11 +14,9 @@ class Categories extends Controller
   {
     // Get categories
     $categories = $this->categoryModel->getCategories();
-    $colors = array("theme-green", "theme-orange", "theme-blue", "theme-blue", "theme-purple", "theme-green", "theme-yellow");
 
     $data = [
-      'categories' => $categories,
-      'colors' => $colors
+      'categories' => $categories
     ];
 
     $this->view('categories/index', $data);
@@ -27,7 +25,7 @@ class Categories extends Controller
   public function show($id)
   {
     // create a new object
-    $pages = new Paginator('10', 'p');
+    $pages = new Paginator('4', 'p');
 
     // set the total records, calling a method to get the number of records from a model
     $total = $this->pharmaceuticalModel->getBycategoryId_count($id);

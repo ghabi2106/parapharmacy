@@ -1,8 +1,5 @@
 <?php require APPROOT . '/views/inc/header.php'; ?>
 
-
-</div>
-
 <div id="content">
 
   <div id="inner-content" class="row">
@@ -172,7 +169,7 @@
               <div class="homepage-new--discover wpb_column vc_column_container vc_col-sm-12">
                 <div class="vc_column-inner ">
                   <div class="wpb_wrapper">
-                    <?php foreach ($data['categories'] as $index=>$category) : ?>
+                    <?php foreach ($data['categories'] as $category) : ?>
                       <div class="vc_row wpb_row vc_inner vc_row-fluid">
                         <div class="wpb_column vc_column_container vc_col-sm-12">
                           <div class="vc_column-inner ">
@@ -200,7 +197,7 @@
                                   </div>
                                 </figure>
                               </div>
-                              <div class="vc_btn3-container  generic-button-homepage <?php echo (!empty($data['colors'][$index])) ? $data['colors'][$index] : ''; ?> vc_btn3-center">
+                              <div class="vc_btn3-container  generic-button-homepage theme-<?php echo (!empty($category->color)) ? $category->color : 'orange'; ?> vc_btn3-center">
                                 <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-color-grey" href="<?php echo URLROOT; ?>/categories/show/<?php echo $category->id; ?>" title="">
                                   voir les produits
                                 </a>
