@@ -9,7 +9,7 @@
     public function getCategories(){
       $this->db->query('SELECT *
                         FROM categories
-                        ORDER BY categories.created_at DESC
+                        ORDER BY categories.created_at ASC
                         ');
 
       $results = $this->db->resultSet();
