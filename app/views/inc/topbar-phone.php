@@ -1,12 +1,12 @@
 <div class="main-menu--logo">
-  <a href="index.html" class="custom-logo-link" rel="home">
-    <img width="206" height="35" src="wp-content/uploads/2018/11/cropped-logo-pediact-small.png" class="custom-logo" alt="Laboratoire PediAct" />
+  <a href="<?php echo URLROOT; ?>" class="custom-logo-link" rel="home">
+    <img width="206" height="35" src="<?php echo URLROOT; ?>/wp-content/uploads/2018/11/cropped-logo-pediact-small.png" class="custom-logo" alt="Laboratoire PediAct" />
   </a>
 </div>
 <div class="main-menu--navigation">
   <ul id="menu-main-menu-navigation-pages-1" class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-55738 current_page_item menu-item-56356 active">
-      <a href="index.html" aria-current="page">Accueil</a>
+      <a href="<?php echo URLROOT; ?>" aria-current="page">Accueil</a>
     </li>
     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41665">
       <a>Nous connaÎtre</a>

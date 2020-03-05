@@ -138,7 +138,11 @@
             <div class="wpb_column vc_column_container vc_col-sm-12">
               <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
-                  <div id="ts-vcsc-font-icon-4075763" style=" margin-top: 0px; margin-bottom: 0px;" class="ts-vcsc-font-icon ts-font-icons ts-shortcode ts-icon-align-center     " data-type="image" data-active="ts-infinite-css-bounce" data-viewport="" data-opacity="1" data-delay="0" data-animation=""><a class="ts-font-icons-link ts-button-page-navigator" href="#scroll-event" target="_parent" title="" data-scroll-target="scroll-event" data-scroll-speed="1000" data-scroll-effect="easeOutSine" data-scroll-offsetdesktop="125" data-scroll-offsettablet="0" data-scroll-offsetmobile="0" data-scroll-hashtag="false"><img class="ts-font-icon     ts-infinite-css-bounce" src="#" style=" background-color:rgba(255,255,255,0.01); width: 6.0rem; height: auto;  display: inline-block !important;"></a></div>
+                  <div id="ts-vcsc-font-icon-4075763" style=" margin-top: 0px; margin-bottom: 0px;" class="ts-vcsc-font-icon ts-font-icons ts-shortcode ts-icon-align-center     " data-type="image" data-active="ts-infinite-css-bounce" data-viewport="" data-opacity="1" data-delay="0" data-animation="">
+                  <a class="ts-font-icons-link ts-button-page-navigator" href="#scroll-event" target="_parent" title="" data-scroll-target="scroll-event" data-scroll-speed="1000" data-scroll-effect="easeOutSine" data-scroll-offsetdesktop="125" data-scroll-offsettablet="0" data-scroll-offsetmobile="0" data-scroll-hashtag="false">
+                    <img class="ts-font-icon     ts-infinite-css-bounce" src="#" style=" background-color:rgba(255,255,255,0.01); width: 6.0rem; height: auto;  display: inline-block !important;"> fffffffff
+                  </a>
+                </div>
                 </div>
               </div>
             </div>

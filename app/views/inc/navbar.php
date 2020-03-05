@@ -1,7 +1,7 @@
 <div class="off-canvas position-right main-menu--off-canvas" id="off-canvas" data-off-canvas>
   <div class="off-canvas--logo">
     <a href="#">
-      <img src="wp-content/uploads/2018/05/logo-pediact-blanc.png" alt="" class="img-rounded center-block">
+      <img src="<?php echo URLROOT; ?>/wp-content/uploads/2018/05/logo-pediact-blanc.png" alt="" class="img-rounded center-block">
     </a>
   </div>
   <div class="off-canvas--navigation">
