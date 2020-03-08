@@ -1,11 +1,4 @@
-<!doctype html>
-
 <html class="no-js" lang="fr-FR">
-
-
-<!-- Mirrored from www.pediact.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Mar 2020 11:45:21 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
 	<meta charset="utf-8">
@@ -206,94 +199,11 @@
 	</script>
 	<!-- DO NOT COPY THIS SNIPPET! End of Page Analytics Tracking for HubSpot WordPress plugin -->
 	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-	<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://www.pediact.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
-	<!-- Schema & Structured Data For WP v1.9.16.1 - -->
-	<script type="application/ld+json" class="saswp-schema-markup-output">
-		[{
-				"@context": "https:\/\/schema.org",
-				"@type": "WebSite",
-				"@id": "https:\/\/www.pediact.com#website",
-				"headline": "Laboratoire PediAct",
-				"name": "Laboratoire PediAct",
-				"description": "traitements innovants de l&#039;enfant et p\u00e9diatrie",
-				"url": "https:\/\/www.pediact.com"
-			},
-
-			{
-				"@context": "https:\/\/schema.org",
-				"@type": "WebPage",
-				"@id": "https:\/\/www.pediact.com\/#webpage",
-				"name": "Accueil",
-				"url": "https:\/\/www.pediact.com\/",
-				"description": "[vc_row",
-				"mainEntity": {
-					"@type": "Article",
-					"mainEntityOfPage": "https:\/\/www.pediact.com\/",
-					"image": "https:\/\/www.pediact.com\/wp-content\/uploads\/2019\/06\/logo-pediact-amp.png",
-					"headline": "Accueil",
-					"description": "[vc_row",
-					"articleBody": "",
-					"keywords": "",
-					"datePublished": "2019-10-02T15:37:50+02:00",
-					"dateModified": "2020-01-09T17:47:15+01:00",
-					"author": {
-						"@type": "Person",
-						"name": "Backup DEV",
-						"description": "",
-						"image": {
-							"@type": "ImageObject",
-							"url": "https:\/\/secure.gravatar.com\/avatar\/da7c6e5238c8eb5e9f7a8eaf6d2ad8b5?s=96&d=mm&r=g",
-							"height": 96,
-							"width": 96
-						}
-					},
-					"publisher": {
-						"@type": "Organization",
-						"logo": {
-							"@type": "ImageObject",
-							"url": "https:\/\/www.pediact.com\/wp-content\/uploads\/2019\/06\/logo-pediact-amp.png",
-							"width": "160",
-							"height": "29"
-						},
-						"name": "Laboratoire Pediact"
-					}
-				},
-				"image": {
-					"@type": "ImageObject",
-					"@id": "https:\/\/www.pediact.com\/#primaryimage",
-					"url": "https:\/\/www.pediact.com\/wp-content\/uploads\/2018\/09\/bien-de\u0301marrer-lanne\u0301e-scolaire.png",
-					"width": "350",
-					"height": "300"
-				}
-			},
-
-			{
-				"@context": "https:\/\/schema.org",
-				"@type": "Organization",
-				"@id": "https:\/\/www.pediact.com#Organization",
-				"name": "Laboratoire Pediact",
-				"url": "https:\/\/www.pediact.com\/",
-				"sameAs": ["https:\/\/www.facebook.com\/Pediact\/", "index.html\/\/twitter.com\/Lab_pediAct", "index.html\/\/www.linkedin.com\/company\/laboratoire-pediact", "http:\/\/www.pinterest.com\/pediact\/"],
-				"logo": {
-					"@type": "ImageObject",
-					"url": "https:\/\/www.pediact.com\/wp-content\/uploads\/2019\/06\/logo-pediact-amp.png",
-					"width": "160",
-					"height": "29"
-				},
-				"contactPoint": {
-					"@type": "ContactPoint",
-					"contactType": "customer support",
-					"telephone": "+33 1.76.21.61.24",
-					"url": ""
-				}
-			}
-		]
-	</script>
 
 	<link rel="icon" href="<?php echo URLROOT; ?>/wp-content/uploads/2019/02/fav-icon.png" sizes="32x32" />
 	<link rel="icon" href="<?php echo URLROOT; ?>/wp-content/uploads/2019/02/fav-icon.png" sizes="192x192" />
 	<link rel="apple-touch-icon-precomposed" href="<?php echo URLROOT; ?>/wp-content/uploads/2019/02/fav-icon.png" />
-	<meta name="msapplication-TileImage" content="https://www.pediact.com/wp-content/uploads/2019/02/fav-icon.png" />
+	<meta name="msapplication-TileImage" content="<?php echo URLROOT; ?>/wp-content/uploads/2019/02/fav-icon.png" />
 	<style type="text/css" data-type="vc_shortcodes-custom-css">
 		.vc_custom_1568821342700 {
 			margin-top: 0px !important;
@@ -315,7 +225,7 @@
 			padding-right: 0px !important;
 			padding-bottom: 0px !important;
 			padding-left: 0px !important;
-			background: #f6f5f7 url(wp-content/uploads/2019/09/biogaia-desktop83eb.png?id=56287) !important;
+			background: #f6f5f7 url("<?php echo URLROOT; ?>/wp-content/uploads/2019/09/biogaia-desktop83eb.png?id=56287") !important;
 			background-position: center !important;
 			background-repeat: no-repeat !important;
 			background-size: cover !important;
@@ -330,7 +240,7 @@
 			padding-right: 0px !important;
 			padding-bottom: 0px !important;
 			padding-left: 0px !important;
-			background: #f9f9f9 url(https://www.pediact.com/wp-content/uploads/2019/09/capricare-desktop.png?id=56286) !important;
+			background: #f9f9f9 url("<?php echo URLROOT; ?>/wp-content/uploads/2019/09/capricare-desktop.png?id=56286") !important;
 			background-position: center !important;
 			background-repeat: no-repeat !important;
 			background-size: cover !important;
@@ -345,7 +255,7 @@
 			padding-right: 0px !important;
 			padding-bottom: 0px !important;
 			padding-left: 0px !important;
-			background: #f9f9f9 url(https://www.pediact.com/wp-content/uploads/2019/12/Pediact-gamme-v2-min.png?id=56486) !important;
+			background: #f9f9f9 url("<?php echo URLROOT; ?>/wp-content/uploads/2019/12/Pediact-gamme-v2-min.png?id=56486") !important;
 			background-position: center !important;
 			background-repeat: no-repeat !important;
 			background-size: cover !important;
