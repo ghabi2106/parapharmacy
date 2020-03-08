@@ -11,8 +11,8 @@
     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41665">
       <a>Nous connaÎtre</a>
       <ul class="menu">
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41666"><a href="notre-laboratoire/index.html">Notre Laboratoire</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41667"><a href="nous-rejoindre/index.html">Nous Rejoindre</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41666"><a href="<?php echo URLROOT; ?>/pages/notreLaboratoire">Notre Laboratoire</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41667"><a href="<?php echo URLROOT; ?>/pages/nousrejoindre">Nous Rejoindre</a></li>
       </ul>
     </li>
     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41668"><a>Nos domaines d&#8217;expertises</a>

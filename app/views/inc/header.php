@@ -395,6 +395,10 @@
 	<!-- Drop Google Analytics here -->
 	<!-- end analytics -->
 
+	<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1535977176370{background-image: url(../wp-content/uploads/2018/07/slider-notre-laboratoiree611.jpg?id=1017) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+	<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1532686795385{background-image: url(../wp-content/uploads/2018/07/slider-nous-rejoindre8a08.jpg?id=1050) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+
+
 </head>
 
 <!-- Uncomment this line if using the Off-Canvas Menu -->

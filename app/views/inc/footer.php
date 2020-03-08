@@ -269,6 +269,7 @@
     }, false);
 </script>
 <script type="text/javascript" defer src="<?php echo URLROOT; ?>/wp-content/cache/autoptimize/js/autoptimize_4aedcc21ff0a6260d983044890f9e1fc.js"></script>
+<script type="text/javascript" defer src="<?php echo URLROOT; ?>/wp-content/cache/autoptimize/js/autoptimize_e0cee9e77f784989c6a7bc30d72fdec4.js"></script>
 </body>
 
 <!-- Mirrored from www.pediact.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Mar 2020 11:46:01 GMT -->

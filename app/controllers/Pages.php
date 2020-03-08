@@ -14,12 +14,19 @@
       $this->view('pages/index', $data);
     }
 
-    public function about(){
+    public function notreLaboratoire(){
       $data = [
-        'title' => 'About Us',
-        'description' => 'App to share posts with other users'
+        'title' => 'Notre Laboratoire',
       ];
 
-      $this->view('pages/about', $data);
+      $this->view('pages/notreLaboratoire', $data);
+    }
+    public function nousrejoindre(){
+      $data = [
+        'title' => 'Nous Rejoindre',
+      ];
+
+      $this->view('pages/nousrejoindre', $data);
     }
   }
+  

@@ -13,10 +13,10 @@
         <a>Nous connaÎtre</a>
         <ul class="vertical menu">
           <li id="menu-item-41666" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41666">
-            <a href="<?php echo URLROOT; ?>">Notre Laboratoire</a>
+            <a href="<?php echo URLROOT; ?>/pages/notreLaboratoire">Notre Laboratoire</a>
           </li>
           <li id="menu-item-41667" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41667">
-            <a href="<?php echo URLROOT; ?>">Nous Rejoindre</a>
+            <a href="<?php echo URLROOT; ?>/pages/nousrejoindre">Nous Rejoindre</a>
           </li>
         </ul>
       </li>
