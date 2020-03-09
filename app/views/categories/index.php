@@ -46,7 +46,8 @@
                     <div class="wpb_single_image wpb_content_element vc_align_center   img-mobile">
 
                       <figure class="wpb_wrapper vc_figure">
-                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="600" height="599" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/biogaia-mobile-pediact-600.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 600px) 100vw, 600px" /></div>
+                        <div class="vc_single_image-wrapper   vc_box_border_grey">
+                          <img width="600" height="599" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/biogaia-mobile-pediact-600.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 600px) 100vw, 600px" /></div>
                       </figure>
                     </div>
                   </div>
@@ -86,7 +87,8 @@
                     <div class="wpb_single_image wpb_content_element vc_align_center   img-mobile">
 
                       <figure class="wpb_wrapper vc_figure">
-                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="600" height="599" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/capricare-mobile-pediact-600.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 600px) 100vw, 600px" /></div>
+                        <div class="vc_single_image-wrapper   vc_box_border_grey">
+                          <img width="600" height="599" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/capricare-mobile-pediact-600.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 600px) 100vw, 600px" /></div>
                       </figure>
                     </div>
                   </div>
@@ -125,7 +127,8 @@
                     <div class="wpb_single_image wpb_content_element vc_align_center   img-mobile">
 
                       <figure class="wpb_wrapper vc_figure">
-                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="600" height="599" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/12/gamme-produit-mobile-pediact-600.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 600px) 100vw, 600px" /></div>
+                        <div class="vc_single_image-wrapper   vc_box_border_grey">
+                          <img width="600" height="599" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/12/gamme-produit-mobile-pediact-600.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 600px) 100vw, 600px" /></div>
                       </figure>
                     </div>
                   </div>
@@ -138,11 +141,12 @@
             <div class="wpb_column vc_column_container vc_col-sm-12">
               <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
-                  <div id="ts-vcsc-font-icon-4075763" style=" margin-top: 0px; margin-bottom: 0px;" class="ts-vcsc-font-icon ts-font-icons ts-shortcode ts-icon-align-center     " data-type="image" data-active="ts-infinite-css-bounce" data-viewport="" data-opacity="1" data-delay="0" data-animation="">
+                  <!-- <div id="ts-vcsc-font-icon-4075763" style=" margin-top: 0px; margin-bottom: 0px;" class="ts-vcsc-font-icon ts-font-icons ts-shortcode ts-icon-align-center     " data-type="image" data-active="ts-infinite-css-bounce" data-viewport="" data-opacity="1" data-delay="0" data-animation="">
                   <a class="ts-font-icons-link ts-button-page-navigator" href="#scroll-event" target="_parent" title="" data-scroll-target="scroll-event" data-scroll-speed="1000" data-scroll-effect="easeOutSine" data-scroll-offsetdesktop="125" data-scroll-offsettablet="0" data-scroll-offsetmobile="0" data-scroll-hashtag="false">
-                    <img class="ts-font-icon     ts-infinite-css-bounce" src="#" style=" background-color:rgba(255,255,255,0.01); width: 6.0rem; height: auto;  display: inline-block !important;"> fffffffff
+                    <i class="ts-font-icon  fa fa-angle-down    ts-infinite-css-bounce" src="#" style=" background-color:rgba(255,255,255,0.01); width: 6.0rem; height: auto;  display: inline-block !important;"></i> fffffffff
                   </a>
-                </div>
+                </div> -->
+                <div id="scroll-down" style=" margin-top: 0px; margin-bottom: 0px;" class="ts-vcsc-font-icon ts-font-icons ts-shortcode ts-icon-align-center     " data-type="icon" data-active="ts-infinite-css-bounce" data-viewport="" data-opacity="1" data-delay="0" data-animation=""><a class="ts-font-icons-link ts-button-page-navigator" href="#to-scroll" target="_parent" title="" data-scroll-target="to-scroll" data-scroll-speed="1000" data-scroll-effect="linear" data-scroll-offsetdesktop="0" data-scroll-offsettablet="0" data-scroll-offsetmobile="0" data-scroll-hashtag="false"><i class="ts-font-icon fa fa-angle-down   ts-infinite-css-bounce" style="background-color:; width: auto; height: auto; font-size: 3.0rem; line-height: 100%;color:#5ec4ef;"></i></a></div>
                 </div>
               </div>
             </div>
@@ -350,7 +354,8 @@
                     <div class="wpb_single_image wpb_content_element vc_align_center   generic-line left laboratory-img">
 
                       <figure class="wpb_wrapper vc_figure">
-                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="649" height="598" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/05/img-product.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 649px) 100vw, 649px" /></div>
+                        <div class="vc_single_image-wrapper   vc_box_border_grey">
+                          <img width="649" height="598" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/05/img-product.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 649px) 100vw, 649px" /></div>
                       </figure>
                     </div>
                   </div>
