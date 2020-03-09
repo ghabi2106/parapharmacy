@@ -193,7 +193,7 @@
 
                               <div class="wpb_text_column wpb_content_element ">
                                 <div class="wpb_wrapper">
-                                  <p style="text-align: center;"><?php echo $category->title; ?></p>
+                                  <p style="text-align: center;"><?php echo utf8_encode($category->title); ?></p>
                                 </div>
                               </div>
 
