@@ -23,11 +23,11 @@
       <li id="menu-item-41668" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41668">
         <a>Nos domaines d&#8217;expertises</a>
         <ul class="vertical menu">
-          <li id="menu-item-41669" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41669"><a href="<?php echo URLROOT; ?>">Dermatologie</a></li>
-          <li id="menu-item-41670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41670"><a href="<?php echo URLROOT; ?>">Ferments Lactiques</a></li>
-          <li id="menu-item-41671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41671"><a href="<?php echo URLROOT; ?>">Nutrition Infantile</a></li>
-          <li id="menu-item-41672" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41672"><a href="<?php echo URLROOT; ?>">ORL</a></li>
-          <li id="menu-item-41673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41673"><a href="<?php echo URLROOT; ?>">Pneumologie</a></li>
+          <li id="menu-item-41669" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41669"><a href="<?php echo URLROOT; ?>/pages/dermatologie">Dermatologie</a></li>
+          <li id="menu-item-41670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41670"><a href="<?php echo URLROOT; ?>/pages/fermentslactiques">Ferments Lactiques</a></li>
+          <li id="menu-item-41671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41671"><a href="<?php echo URLROOT; ?>/pages/nutritioninfantile">Nutrition Infantile</a></li>
+          <li id="menu-item-41672" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41672"><a href="<?php echo URLROOT; ?>/pages/orl">ORL</a></li>
+          <li id="menu-item-41673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41673"><a href="<?php echo URLROOT; ?>/pages/pneumologie">Pneumologie</a></li>
         </ul>
       </li>
       <li id="menu-item-41674" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41674"><a href="#">Nos produits</a>
@@ -84,9 +84,9 @@
           </li>
         </ul>
       </li>
-      <li id="menu-item-41705" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41705"><a href="notre-blog/index.html">Notre blog</a></li>
-      <li id="menu-item-41706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41706"><a href="nos-guides/index.html">Nos guides</a></li>
-      <li id="menu-item-41707" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41707"><a href="nous-contacter/index.html">Nous contacter</a></li>
+      <li id="menu-item-41705" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41705"><a href="<?php echo URLROOT; ?>/pages/notreblog">Notre blog</a></li>
+      <li id="menu-item-41706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41706"><a href="<?php echo URLROOT; ?>/pages/nosguides">Nos guides</a></li>
+      <li id="menu-item-41707" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41707"><a href="<?php echo URLROOT; ?>/pages/nouscontacter">Nous contacter</a></li>
       <li id="menu-item-56166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56166"><a href="ou-acheter-nos-produits/index.html">Où Acheter</a></li>
     </ul>
   </div>

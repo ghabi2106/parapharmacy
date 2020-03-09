@@ -17,11 +17,11 @@
     </li>
     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41668"><a>Nos domaines d&#8217;expertises</a>
       <ul class="menu">
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41669"><a href="dermatologie/index.html">Dermatologie</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41670"><a href="ferments-lactiques/index.html">Ferments Lactiques</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41671"><a href="nutrition-infantile/index.html">Nutrition Infantile</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41672"><a href="orl/index.html">ORL</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41673"><a href="pneumologie/index.html">Pneumologie</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41669"><a href="<?php echo URLROOT; ?>/pages/dermatologie">Dermatologie</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41670"><a href="<?php echo URLROOT; ?>/pages/fermentslactiques">Ferments Lactiques</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41671"><a href="<?php echo URLROOT; ?>/pages/nutritioninfantile">Nutrition Infantile</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41672"><a href="<?php echo URLROOT; ?>/pages/orl">ORL</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41673"><a href="<?php echo URLROOT; ?>/pages/pneumologie">Pneumologie</a></li>
       </ul>
     </li>
     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41674">
@@ -86,9 +86,9 @@
         </li>
       </ul>
     </li>
-    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41705"><a href="notre-blog/index.html">Notre blog</a></li>
-    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41706"><a href="nos-guides/index.html">Nos guides</a></li>
-    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41707"><a href="nous-contacter/index.html">Nous contacter</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41705"><a href="<?php echo URLROOT; ?>/pages/notreblog">Notre blog</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41706"><a href="<?php echo URLROOT; ?>/pages/nosguides">Nos guides</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41707"><a href="<?php echo URLROOT; ?>/pages/nouscontacter">Nous contacter</a></li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56166"><a href="ou-acheter-nos-produits/index.html">Où Acheter</a></li>
   </ul>
 </div>
