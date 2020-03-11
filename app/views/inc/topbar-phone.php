@@ -37,7 +37,8 @@
 
             <!-- <?php echo URLROOT; ?>/categories/show/<?php echo $pharmaceutical->id; ?> -->
 
-              <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41678"><a href="biogaia/indexca2f.html?produit=comprimes">BioGaia® Comprimés</a></li>
+
+              <!-- <li    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41678"><a href="biogaia/indexca2f.html?produit=comprimes">BioGaia® Comprimés</a></li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41679"><a href="biogaia/index4529.html?produit=vitamine">BioGaia® + Vitamine D</a></li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56397"><a href="biogaia/index38a8.html?produit=minipack">BioGaia® Minipack</a></li> -->
             </ul>

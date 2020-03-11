@@ -18,8 +18,8 @@
                   <div class="wpb_wrapper">
                     <div class="wpb_text_column wpb_content_element  hero--title generic-wrapper">
                       <div class="wpb_wrapper">
-                        <h1><?php echo $data['category']->title; ?></h1>
-                        <p><?php echo htmlspecialchars_decode(stripslashes($data['category']->body)); ?></p>
+                        <h1><?php echo utf8_encode($data['category']->title); ?></h1>
+                        <p><?php echo utf8_encode($data['category']->body); ?></p>
 
                       </div>
                     </div>
@@ -37,9 +37,15 @@
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element  product-tabs--tab">
                         <div class="wpb_wrapper">
+<<<<<<< HEAD
                           <p><?php echo $pharmaceutical->type; ?></p>
                           <h2><?php echo $pharmaceutical->title; ?></h2>
                           <p><?php echo $pharmaceutical->volume; ?></p>  
+=======
+                          <p><?php echo utf8_encode($pharmaceutical->type); ?></p>
+                          <h2><?php echo utf8_encode($pharmaceutical->title); ?></h2>
+                          <p><?php echo utf8_encode($pharmaceutical->volume); ?></p>
+>>>>>>> 6eb15fc2c10112bbae92a53e2c1cd32fb635ed13
                         </div>
                       </div>
                       <div class="vc_btn3-container  product-tabs--button gouttes vc_btn3-right">
@@ -65,15 +71,15 @@
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element  generic-title-alt product-content--title">
                         <div class="wpb_wrapper">
-                          <p><?php echo $pharmaceutical->title; ?></p>
-                          <h3><?php echo $pharmaceutical->title1; ?></h3>
+                          <p><?php echo utf8_encode($pharmaceutical->title); ?></p>
+                          <h3><?php echo utf8_encode($pharmaceutical->title1); ?></h3>
 
                         </div>
                       </div>
 
                       <div class="wpb_text_column wpb_content_element  product-content--text">
                         <div class="wpb_wrapper">
-                          <?php echo $pharmaceutical->body1; ?>
+                          <?php echo utf8_encode($pharmaceutical->body1); ?>
                         </div>
                       </div>
                     </div>
@@ -93,7 +99,7 @@
 
                       <div class="wpb_text_column wpb_content_element  product-content--text-right">
                         <div class="wpb_wrapper">
-                          <p><?php echo $pharmaceutical->body; ?></p>
+                          <p><?php echo utf8_encode($pharmaceutical->body); ?></p>
 
                         </div>
                       </div>
@@ -121,13 +127,13 @@
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element  generic-title-alt product-content--title">
                         <div class="wpb_wrapper">
-                          <h3><?php echo $pharmaceutical->title2; ?></h3>
+                          <h3><?php echo utf8_encode($pharmaceutical->title2); ?></h3>
                         </div>
                       </div>
 
                       <div class="wpb_text_column wpb_content_element  product-content--text">
                         <div class="wpb_wrapper">
-                          <?php echo $pharmaceutical->body2; ?>
+                          <?php echo utf8_encode($pharmaceutical->body2); ?>
                         </div>
                       </div>
                     </div>
@@ -176,7 +182,7 @@
                                 <div class="vc_tta-panel-body">
                                   <div class="wpb_text_column wpb_content_element ">
                                     <div class="wpb_wrapper">
-                                      <?php echo $pharmaceutical->agiter; ?>
+                                      <?php echo utf8_encode($pharmaceutical->agiter); ?>
                                     </div>
                                   </div>
                                 </div>
@@ -191,7 +197,7 @@
                                 <div class="vc_tta-panel-body">
                                   <div class="wpb_text_column wpb_content_element ">
                                     <div class="wpb_wrapper">
-                                      <?php echo $pharmaceutical->administrer; ?>
+                                      <?php echo utf8_encode($pharmaceutical->administrer); ?>
                                     </div>
                                   </div>
                                 </div>
@@ -203,7 +209,7 @@
                                 <div class="vc_tta-panel-body">
                                   <div class="wpb_text_column wpb_content_element ">
                                     <div class="wpb_wrapper">
-                                      <?php echo $pharmaceutical->conserver; ?>
+                                      <?php echo utf8_encode($pharmaceutical->conserver); ?>
                                     </div>
                                   </div>
                                 </div>
@@ -217,7 +223,7 @@
                                   </h4>
                                 </div>
                                 <div class="vc_tta-panel-body">
-                                  <?php echo $pharmaceutical->composition; ?>
+                                  <?php echo utf8_encode($pharmaceutical->composition); ?>
                                 </div>
                               </div>
                               <div class="vc_tta-panel tab-item" id="contentNB-cbda9c961515" data-vc-content=".vc_tta-panel-body">
@@ -231,7 +237,7 @@
                                 <div class="vc_tta-panel-body">
                                   <div class="wpb_text_column wpb_content_element ">
                                     <div class="wpb_wrapper">
-                                      <?php echo $pharmaceutical->precautions; ?>
+                                      <?php echo utf8_encode($pharmaceutical->precautions); ?>
                                     </div>
                                   </div>
                                 </div>
@@ -303,13 +309,13 @@
                   <div class="wpb_wrapper">
                     <div class="wpb_text_column wpb_content_element  generic-title-alt laboratory-title">
                       <div class="wpb_wrapper">
-                        <?php echo $data["category"]->title1; ?>
+                        <?php echo utf8_encode($data["category"]->title1); ?>
                       </div>
                     </div>
 
                     <div class="wpb_text_column wpb_content_element  laboratory-text">
                       <div class="wpb_wrapper">
-                        <?php echo $data["category"]->body1; ?>
+                        <?php echo utf8_encode($data["category"]->body1); ?>
                       </div>
                     </div>
                   </div>
@@ -333,7 +339,7 @@
                     </div>
                     <div class="wpb_text_column wpb_content_element  laboratory-text">
                       <div class="wpb_wrapper">
-                        <?php echo $data["category"]->body2; ?>
+                        <?php echo utf8_encode($data["category"]->body2); ?>
                       </div>
                     </div>
                   </div>
@@ -370,7 +376,7 @@
                       </div>
                       <div class="wpb_text_column wpb_content_element ">
                         <div class="wpb_wrapper">
-                          <?php echo $pharmaceutical->body3; ?>
+                          <?php echo utf8_encode($pharmaceutical->body3); ?>
                         </div>
                       </div>
                     </div>

@@ -2,8 +2,8 @@
   // DB Params
   define('DB_HOST', 'sql210.epizy.com');
   define('DB_USER', 'epiz_25255364');
-  define('DB_PASS', 'm8XEuD3djZY$nuw');
-  define('DB_NAME', 'epiz_25255364_pharmacy');
+  define('DB_PASS', 'YtWhyFIMjiG5OE');
+  define('DB_NAME', 'epiz_25255364_parapharmacy');
 
   // App Root
   define('APPROOT', dirname(dirname(__FILE__)));
