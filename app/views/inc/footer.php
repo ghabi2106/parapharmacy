@@ -33,8 +33,11 @@
 
                         <span class="screen-reader-text">facebook</span>
 
-                        <span class="zoom-social_icons-list-span socicon socicon-facebook" data-hover-rule="color" data-hover-color="#f7f7f7" style="color : #8bd4f4; font-size: 18px; padding:8px"></span>
+                        <!-- <span class="zoom-social_icons-list-span socicon socicon-facebook" data-hover-rule="color" data-hover-color="#f7f7f7" style="color : #8bd4f4; font-size: 18px; padding:8px"></span> -->
 
+                        <span class="sosial-sosial" >
+                        <i class="fab fa-linkedin-in"></i>
+                        </span>
                     </a>
                 </li>
 
@@ -44,8 +47,11 @@
 
                         <span class="screen-reader-text">twitter</span>
 
-                        <span class="zoom-social_icons-list-span socicon socicon-twitter" data-hover-rule="color" data-hover-color="#f7f7f7" style="color : #8bd4f4; font-size: 18px; padding:8px"></span>
+                        <!-- <span class="zoom-social_icons-list-span socicon socicon-twitter" data-hover-rule="color" data-hover-color="#f7f7f7" style="color : #8bd4f4; font-size: 18px; padding:8px"></span> -->
 
+                        <span class="sosial-sosial" >
+                        <i class="fab fa-twitter"></i>
+                        </span>
                     </a>
                 </li>
 
@@ -55,8 +61,11 @@
 
                         <span class="screen-reader-text">pinterest</span>
 
-                        <span class="zoom-social_icons-list-span socicon socicon-pinterest" data-hover-rule="color" data-hover-color="#f7f7f7" style="color : #8bd4f4; font-size: 18px; padding:8px"></span>
-
+                        <!-- <span class="zoom-social_icons-list-span socicon socicon-pinterest" data-hover-rule="color" data-hover-color="#f7f7f7" style="color : #8bd4f4; font-size: 18px; padding:8px"></span> -->
+                                                                            
+                        <span class="sosial-sosial" >
+                        <i class="fab fa-pinterest-p"></i>
+                        </span>
                     </a>
                 </li>
 
@@ -66,8 +75,11 @@
 
                         <span class="screen-reader-text">google</span>
 
-                        <span class="zoom-social_icons-list-span socicon socicon-google" data-hover-rule="color" data-hover-color="#f7f7f7" style="color : #8bd4f4; font-size: 18px; padding:8px"></span>
-
+                        <!-- <span class="zoom-social_icons-list-span socicon socicon-google" data-hover-rule="color" data-hover-color="#f7f7f7" style="color : #8bd4f4; font-size: 18px; padding:8px"></span>
+                         -->
+                        <span class="sosial-sosial" >
+                        <i class="fab fa-google-plus-g"></i>
+                        </span>
                     </a>
                 </li>
 
@@ -77,8 +89,10 @@
 
                         <span class="screen-reader-text">linkedin</span>
 
-                        <span class="zoom-social_icons-list-span socicon socicon-linkedin" data-hover-rule="color" data-hover-color="#f7f7f7" style="color : #8bd4f4; font-size: 18px; padding:8px"></span>
-
+                        <!-- <span class="zoom-social_icons-list-span socicon socicon-linkedin" data-hover-rule="color" data-hover-color="#f7f7f7" style="color : #8bd4f4; font-size: 18px; padding:8px"></span> -->
+                        <span class="sosial-sosial" >
+                        <i class="fab fa-linkedin-in"></i>
+                        </span>
                     </a>
                 </li>
 
@@ -88,8 +102,11 @@
 
                         <span class="screen-reader-text">rss</span>
 
-                        <span class="zoom-social_icons-list-span socicon socicon-rss" data-hover-rule="color" data-hover-color="#f7f7f7" style="color : #8bd4f4; font-size: 18px; padding:8px"></span>
+                        <!-- <span class="zoom-social_icons-list-span socicon socicon-rss" data-hover-rule="color" data-hover-color="#f7f7f7" style="color : #8bd4f4; font-size: 18px; padding:8px"></span> -->
 
+                        <span class="sosial-sosial" >
+                        <i class="fas fa-rss"></i>
+                        </span>
                     </a>
                 </li>
 
@@ -101,16 +118,16 @@
             <h4 class="footer--widget-title">le laboratoire pediact</h4>
             <div class="menu-footer-main-pages-container">
                 <ul id="menu-footer-main-pages" class="menu">
-                    <li id="menu-item-56357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-55738 current_page_item menu-item-56357 active"><a href="index.html" aria-current="page">Accueil</a></li>
+                    <li id="menu-item-56357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-55738 current_page_item menu-item-56357 active"><a href="<?php echo URLROOT; ?>" aria-current="page">Accueil</a></li>
                     <li id="menu-item-41724" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41724"><a href="nous-rejoindre/index.html">Nous Rejoindre</a></li>
-                    <li id="menu-item-41723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41723"><a href="nous-contacter/index.html">Nous Contacter</a></li>
-                    <li id="menu-item-41719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41719"><a href="ferments-lactiques/index.html">Ferments Lactiques</a></li>
-                    <li id="menu-item-41725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41725"><a href="nutrition-infantile/index.html">Nutrition Infantile</a></li>
-                    <li id="menu-item-41726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41726"><a href="orl/index.html">ORL</a></li>
-                    <li id="menu-item-41728" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41728"><a href="pneumologie/index.html">Pneumologie</a></li>
-                    <li id="menu-item-41718" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41718"><a href="dermatologie/index.html">Dermatologie</a></li>
-                    <li id="menu-item-41720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41720"><a href="nos-guides/index.html">Nos Guides</a></li>
-                    <li id="menu-item-41721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41721"><a href="notre-blog/index.html">Notre Blog</a></li>
+                    <li id="menu-item-41723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41723"><a href="<?php echo URLROOT; ?>/pages/nouscontacter">Nous Contacter</a></li>
+                    <li id="menu-item-41719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41719"><a href="<?php echo URLROOT; ?>/pages/fermentslactiques">Ferments Lactiques</a></li>
+                    <li id="menu-item-41725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41725"><a href="<?php echo URLROOT; ?>/pages/nutritioninfantile">Nutrition Infantile</a></li>
+                    <li id="menu-item-41726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41726"><a href="<?php echo URLROOT; ?>/pages/orl">ORL</a></li>
+                    <li id="menu-item-41728" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41728"><a href="<?php echo URLROOT; ?>/pages/pneumologie">Pneumologie</a></li>
+                    <li id="menu-item-41718" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41718"><a href="<?php echo URLROOT; ?>/pages/dermatologie">Dermatologie</a></li>
+                    <li id="menu-item-41720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41720"><a href="<?php echo URLROOT; ?>/pages/nosguides">Nos Guides</a></li>
+                    <li id="menu-item-41721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41721"><a href="<?php echo URLROOT; ?>/pages/notreblog">Notre Blog</a></li>
                     <li id="menu-item-56168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56168"><a href="ou-acheter-nos-produits/index.html">Où Acheter</a></li>
                 </ul>
             </div>
@@ -268,6 +285,7 @@
         }
     }, false);
 </script>
+
 <script type="text/javascript" defer src="<?php echo URLROOT; ?>/wp-content/cache/autoptimize/js/autoptimize_4aedcc21ff0a6260d983044890f9e1fc.js"></script>
 <script type="text/javascript" defer src="<?php echo URLROOT; ?>/wp-content/cache/autoptimize/js/autoptimize_e0cee9e77f784989c6a7bc30d72fdec4.js"></script>
 </body>

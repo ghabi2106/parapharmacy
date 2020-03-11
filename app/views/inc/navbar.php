@@ -32,15 +32,18 @@
       </li>
       <li id="menu-item-41674" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41674"><a href="#">Nos produits</a>
         <ul class="vertical menu">
-          <li id="menu-item-41675" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41675"><a>BioGaia®</a>
-            <ul class="vertical menu">
-              <li id="menu-item-41676" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41676"><a href="biogaia/index10eb.html?produit=gouttes">BioGaia® Gouttes</a></li>
-              <li id="menu-item-41678" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41678"><a href="biogaia/indexca2f.html?produit=comprimes">BioGaia® Comprimés</a></li>
-              <li id="menu-item-41679" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41679"><a href="biogaia/index4529.html?produit=vitamine">BioGaia® + Vitamine D</a></li>
-              <li id="menu-item-56397" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56397"><a href="biogaia/index38a8.html?produit=minipack">BioGaia® Minipack</a></li>
-            </ul>
+        <?php foreach ($data['categories'] as $category) : ?>
+          <li id="menu-item-41675" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41675">
+            <a><?php echo $category->title; ?></a>
+              <ul class="vertical menu">
+                <li id="menu-item-41676" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41676"><a href="<?php echo URLROOT; ?>/categories/show/<?php echo $category->id; ?>">hhhhhhhhhh</a></li>
+                <!-- <li id="menu-item-41678" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41678"><a href="biogaia/indexca2f.html?produit=comprimes">BioGaia® Comprimés</a></li>
+                <li id="menu-item-41679" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41679"><a href="biogaia/index4529.html?produit=vitamine">BioGaia® + Vitamine D</a></li>
+                <li id="menu-item-56397" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56397"><a href="biogaia/index38a8.html?produit=minipack">BioGaia® Minipack</a></li> -->
+              </ul> 
           </li>
-          <li id="menu-item-41680" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41680"><a>Capricare®</a>
+        <?php endforeach; ?> 
+          <!-- <li id="menu-item-41680" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41680"><a>Capricare®</a>
             <ul class="vertical menu">
               <li id="menu-item-41681" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41681"><a href="capricare/index5c1c.html?produit=deuxieme-age">Capricare® 2ème âge</a></li>
               <li id="menu-item-41682" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41682"><a href="capricare/index6cc9.html?produit=croissance">Capricare® Croissance</a></li>
@@ -81,7 +84,7 @@
             <ul class="vertical menu">
               <li id="menu-item-41699" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41699"><a href="poxkare/index.html">PoxKare®</a></li>
             </ul>
-          </li>
+          </li> -->
         </ul>
       </li>
       <li id="menu-item-41705" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41705"><a href="<?php echo URLROOT; ?>/pages/notreblog">Notre blog</a></li>

@@ -39,7 +39,7 @@
                         <div class="wpb_wrapper">
                           <p><?php echo $pharmaceutical->type; ?></p>
                           <h2><?php echo $pharmaceutical->title; ?></h2>
-                          <p><?php echo $pharmaceutical->volume; ?></p>
+                          <p><?php echo $pharmaceutical->volume; ?></p>  
                         </div>
                       </div>
                       <div class="vc_btn3-container  product-tabs--button gouttes vc_btn3-right">

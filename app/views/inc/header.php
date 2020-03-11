@@ -316,7 +316,12 @@
     <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1533310954723{background-image: url(../wp-content/uploads/2018/08/slider-orldf2f.jpg?id=1381) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
     <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1533312551520{background-image: url(../wp-content/uploads/2018/08/slider-pneumologie62f0.jpg?id=1402) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
 
+	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/e3b204a904.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="<?php echo URLROOT; ?>/css/style.css">
+	
 </head>
 
 <!-- Uncomment this line if using the Off-Canvas Menu -->
