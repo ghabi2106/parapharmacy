@@ -1,4 +1,4 @@
-<?php require APPROOT . '/views/inc/header.php'; ?>
+<!-- <?php require APPROOT . '/views/inc/header.php'; ?>
   <?php flash('pharmaceutical_message'); ?>
   <div class="row mb-3">
     <div class="col-md-6">
@@ -22,4 +22,4 @@
       <a href="<?php echo URLROOT; ?>/pharmaceuticals/show/<?php echo $pharmaceutical->pharmaceuticalId; ?>" class="btn btn-dark">More</a>
     </div>
     <?php endforeach; ?>
-<?php require APPROOT . '/views/inc/footer.php'; ?>
+<?php require APPROOT . '/views/inc/footer.php'; ?> -->

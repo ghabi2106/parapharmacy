@@ -31,11 +31,12 @@
         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41675">
           <a><?php echo $category->title; ?></a>
             <ul class="menu">
-            <?php foreach ($data['pharmaceuticals'] as $pharmaceutical) : ?>
-              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41676"><a href="#"><?php echo $pharmaceutical->title; ?></a></li>
-            <?php endforeach; ?>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41676">
+                <a href="<?php echo URLROOT; ?>/categories/show/<?php echo $category->id; ?>">
+                  <?php echo $category->title; ?>
+                </a></li>
 
-            <!-- <?php echo URLROOT; ?>/categories/show/<?php echo $pharmaceutical->id; ?> -->
+            
 
 
               <!-- <li    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41678"><a href="biogaia/indexca2f.html?produit=comprimes">BioGaia® Comprimés</a></li>

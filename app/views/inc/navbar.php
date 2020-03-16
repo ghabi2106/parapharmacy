@@ -30,13 +30,17 @@
           <li id="menu-item-41673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41673"><a href="<?php echo URLROOT; ?>/pages/pneumologie">Pneumologie</a></li>
         </ul>
       </li>
-      <li id="menu-item-41674" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41674"><a href="#">Nos produits</a>
+      <li id="menu-item-41674" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41674">
+        <a href="#">Nos produits</a>
         <ul class="vertical menu">
         <?php foreach ($data['categories'] as $category) : ?>
           <li id="menu-item-41675" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41675">
             <a><?php echo $category->title; ?></a>
               <ul class="vertical menu">
-                <li id="menu-item-41676" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41676"><a href="<?php echo URLROOT; ?>/categories/show/<?php echo $category->id; ?>">hhhhhhhhhh</a></li>
+                <li id="menu-item-41676" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41676">
+                  <a href="<?php echo URLROOT; ?>/categories/show/<?php echo $category->id; ?>">
+                    <?php echo $category->title; ?>
+                </a></li>
                 <!-- <li id="menu-item-41678" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41678"><a href="biogaia/indexca2f.html?produit=comprimes">BioGaia® Comprimés</a></li>
                 <li id="menu-item-41679" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41679"><a href="biogaia/index4529.html?produit=vitamine">BioGaia® + Vitamine D</a></li>
                 <li id="menu-item-56397" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56397"><a href="biogaia/index38a8.html?produit=minipack">BioGaia® Minipack</a></li> -->

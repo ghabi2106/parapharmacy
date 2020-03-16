@@ -1,4 +1,4 @@
-<?php require APPROOT . '/views/inc/header.php'; ?>
+<!-- <?php require APPROOT . '/views/inc/header.php'; ?>
 <section id="main" class="site-main">
   <div id="opal-breadscrumb">
     <div class="opal-breadscrumb">
@@ -906,4 +906,4 @@
     })(jQuery);
   });
 </script>
-<?php require APPROOT . '/views/inc/footer.php'; ?>
+<?php require APPROOT . '/views/inc/footer.php'; ?> -->

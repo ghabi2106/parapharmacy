@@ -37,15 +37,9 @@
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element  product-tabs--tab">
                         <div class="wpb_wrapper">
-<<<<<<< HEAD
-                          <p><?php echo $pharmaceutical->type; ?></p>
-                          <h2><?php echo $pharmaceutical->title; ?></h2>
-                          <p><?php echo $pharmaceutical->volume; ?></p>  
-=======
                           <p><?php echo utf8_encode($pharmaceutical->type); ?></p>
                           <h2><?php echo utf8_encode($pharmaceutical->title); ?></h2>
                           <p><?php echo utf8_encode($pharmaceutical->volume); ?></p>
->>>>>>> 6eb15fc2c10112bbae92a53e2c1cd32fb635ed13
                         </div>
                       </div>
                       <div class="vc_btn3-container  product-tabs--button gouttes vc_btn3-right">
