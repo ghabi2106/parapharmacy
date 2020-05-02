@@ -32,7 +32,7 @@
           <section id="section--product-tabs" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_section">
             <div class="vc_row wpb_row vc_row-fluid product-tabs--row generic-wrapper vc_row-o-equal-height vc_row-flex">
               <?php foreach ($data['pharmaceuticals'] as $pharmaceutical) : ?>
-                <div class="product-tabs--column theme-<?php echo (!empty($pharmaceutical->color)) ? $pharmaceutical->color : 'orange'; ?> wpb_column vc_column_container vc_col-sm-3">
+                <div class="product-tabs--column theme-<?php echo (!empty($data['category']->color)) ? $data['category']->color : 'orange'; ?> wpb_column vc_column_container vc_col-sm-3">
                   <div class="vc_column-inner ">
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element  product-tabs--tab">
@@ -46,7 +46,7 @@
                         <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-color-grey" href="#" title="" onclick="openProduct(event, 
                             &#039;product<?php echo $pharmaceutical->id; ?>&#039;, 
                             &#039;<?php echo URLROOT; ?>/img/pharmaceuticals/<?php echo $pharmaceutical->img; ?>&#039;, 
-                            &#039;theme-<?php echo (!empty($pharmaceutical->color)) ? $pharmaceutical->color : 'orange'; ?>&#039;)">
+                            &#039;theme-<?php echo (!empty($data['category']->color)) ? $data['category']->color : 'orange'; ?>&#039;)">
                           Découvrir le produit
                         </a>
                       </div>
