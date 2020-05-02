@@ -25,15 +25,15 @@
 
                               <figure class="wpb_wrapper vc_figure">
                                 <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                  <img width="375" height="64" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/LogoPediAct.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 375px) 100vw, 375px" />
+                                  <img width="375" height="64" src="<?php echo URLROOT; ?>/img/DS-Pharma-logo-final.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 375px) 100vw, 375px" />
                                 </div>
                               </figure>
                             </div>
 
                             <div class="wpb_text_column wpb_content_element  slide--text">
                               <div class="wpb_wrapper">
-                                <h1>Découvrez la gamme complète BioGaia® pour toute la famille</h1>
-                                <p>Développés à partir de la souche exclusive <em>Lactobacillus reuteri</em> Protectis® (DSM 17938), les produits BioGaia® bénéficient de plus de 20 ans de recherche et développement.</p>
+                                <h1>Découvrez la gamme complète PROSOL® pour protection solaire</h1>
+                                <p>Développés à partir de la souche exclusive <em>Laboratoires DSPharma®</em>, les produits PROSOL® bénéficient de plus de 10 ans de recherche et développement.</p>
 
                               </div>
                             </div>
@@ -47,7 +47,7 @@
 
                       <figure class="wpb_wrapper vc_figure">
                         <div class="vc_single_image-wrapper   vc_box_border_grey">
-                          <img width="600" height="599" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/biogaia-mobile-pediact-600.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 600px) 100vw, 600px" /></div>
+                          <img width="600" height="599" src="<?php echo URLROOT; ?>/img/Prosol-slider.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 600px) 100vw, 600px" /></div>
                       </figure>
                     </div>
                   </div>
@@ -66,15 +66,15 @@
 
                               <figure class="wpb_wrapper vc_figure">
                                 <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                  <img width="375" height="64" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/LogoPediAct.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 375px) 100vw, 375px" />
+                                  <img width="375" height="64" src="<?php echo URLROOT; ?>/img/DS-Pharma-logo-final.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 375px) 100vw, 375px" />
                                 </div>
                               </figure>
                             </div>
 
                             <div class="wpb_text_column wpb_content_element  slide--text">
                               <div class="wpb_wrapper">
-                                <h1>Des laits infantiles chèvrement délicieux !</h1>
-                                <p>Découvrez les formules infantiles Capricare® développées à partir des qualités naturelles du lait de chèvre et issues de plus de 20 années de recherche en nutrition infantile.</p>
+                                <h1>Découvrez la gamme éclaircissante PROCLAIR® pour protection solaire</h1>
+                                <p>Découvrez les soins dépigmentants adaptés aux différentes localisations des hyperpigmentations épidermiques.</p>
 
                               </div>
                             </div>
@@ -88,7 +88,7 @@
 
                       <figure class="wpb_wrapper vc_figure">
                         <div class="vc_single_image-wrapper   vc_box_border_grey">
-                          <img width="600" height="599" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/capricare-mobile-pediact-600.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 600px) 100vw, 600px" /></div>
+                          <img width="600" height="599" src="<?php echo URLROOT; ?>/img/proclair-new.gif" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 600px) 100vw, 600px" /></div>
                       </figure>
                     </div>
                   </div>
@@ -107,15 +107,15 @@
 
                               <figure class="wpb_wrapper vc_figure">
                                 <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                  <img width="375" height="64" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/09/LogoPediAct.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 375px) 100vw, 375px" />
+                                  <img width="375" height="64" src="<?php echo URLROOT; ?>/img/DS-Pharma-logo-final.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 375px) 100vw, 375px" />
                                 </div>
                               </figure>
                             </div>
 
                             <div class="wpb_text_column wpb_content_element  slide--text">
                               <div class="wpb_wrapper">
-                                <h1>Un nouveau regard sur la santé de toute la famille</h1>
-
+                                <h1>ACNEREG® - <em>soin anti-acnéïque</em></h1>
+                                <p>Acnéreg® gel anti-acné est conçue pour limiter les poussées d’acné et purifier la peau</p>
                               </div>
                             </div>
                             <div class="vc_btn3-container  generic-button slide--btn vc_btn3-inline">
@@ -128,7 +128,7 @@
 
                       <figure class="wpb_wrapper vc_figure">
                         <div class="vc_single_image-wrapper   vc_box_border_grey">
-                          <img width="600" height="599" src="<?php echo URLROOT; ?>/wp-content/uploads/2019/12/gamme-produit-mobile-pediact-600.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 600px) 100vw, 600px" /></div>
+                          <img width="600" height="599" src="<?php echo URLROOT; ?>/img/Prosol-slider.png" class="vc_single_image-img attachment-full" alt="" sizes="(max-width: 600px) 100vw, 600px" /></div>
                       </figure>
                     </div>
                   </div>
@@ -141,12 +141,12 @@
             <div class="wpb_column vc_column_container vc_col-sm-12">
               <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
-                  <!-- <div id="ts-vcsc-font-icon-4075763" style=" margin-top: 0px; margin-bottom: 0px;" class="ts-vcsc-font-icon ts-font-icons ts-shortcode ts-icon-align-center     " data-type="image" data-active="ts-infinite-css-bounce" data-viewport="" data-opacity="1" data-delay="0" data-animation="">
+                  <div id="ts-vcsc-font-icon-4075763" style=" margin-top: 0px; margin-bottom: 0px;" class="ts-vcsc-font-icon ts-font-icons ts-shortcode ts-icon-align-center     " data-type="image" data-active="ts-infinite-css-bounce" data-viewport="" data-opacity="1" data-delay="0" data-animation="">
                   <a class="ts-font-icons-link ts-button-page-navigator" href="#scroll-event" target="_parent" title="" data-scroll-target="scroll-event" data-scroll-speed="1000" data-scroll-effect="easeOutSine" data-scroll-offsetdesktop="125" data-scroll-offsettablet="0" data-scroll-offsetmobile="0" data-scroll-hashtag="false">
-                    <i class="ts-font-icon  fa fa-angle-down    ts-infinite-css-bounce" src="#" style=" background-color:rgba(255,255,255,0.01); width: 6.0rem; height: auto;  display: inline-block !important;"></i> fffffffff
+                    <i class="ts-font-icon  fa fa-angle-down    ts-infinite-css-bounce" src="#" style=" background-color:rgba(255,255,255,0.01); width: 6.0rem; height: auto; display: inline-block !important;font-size: 6.0rem; line-height: 100%;color:#ffcf48;"></i> 
                   </a>
-                </div> -->
-                <div id="scroll-down" style=" margin-top: 0px; margin-bottom: 0px;" class="ts-vcsc-font-icon ts-font-icons ts-shortcode ts-icon-align-center     " data-type="icon" data-active="ts-infinite-css-bounce" data-viewport="" data-opacity="1" data-delay="0" data-animation=""><a class="ts-font-icons-link ts-button-page-navigator" href="#to-scroll" target="_parent" title="" data-scroll-target="to-scroll" data-scroll-speed="1000" data-scroll-effect="linear" data-scroll-offsetdesktop="0" data-scroll-offsettablet="0" data-scroll-offsetmobile="0" data-scroll-hashtag="false"><i class="ts-font-icon fa fa-angle-down   ts-infinite-css-bounce" style="background-color:; width: auto; height: auto; font-size: 3.0rem; line-height: 100%;color:#5ec4ef;"></i></a></div>
+                </div>
+              </div>
                 </div>
               </div>
             </div>
@@ -165,7 +165,10 @@
 
                     <div class="wpb_text_column wpb_content_element ">
                       <div class="wpb_wrapper">
-                        <p style="text-align: left;">Le Laboratoire PediAct se concentre sur la distribution de solutions innovantes, performantes et éprouvées dont l&#8217;innocuité aura été clairement démontrée. Nous vous proposons une gamme de spécialités destinées à la santé et au bien-être de toute la famille : ferments lactiques, lait infantile issu du lait de chèvre, produits pour la sphère ORL ou le soin de la peau …</p>
+                        <p style="text-align: left;">
+                          <b>DS PHARMA</b> est une unité de fabrication et de conditionnement des produits dermo-cosmétiques.
+                          Son objectif est de formuler des produits cosmétiques tendant vers la qualité pharmaceutique, destinés exclusivement à la prescription médicale et au conseil pharmaceutique.
+                        </p>
 
                       </div>
                     </div>

@@ -1,6 +1,6 @@
 <div class="main-menu--logo">
   <a href="<?php echo URLROOT; ?>" class="custom-logo-link" rel="home">
-    <img width="206" height="35" src="<?php echo URLROOT; ?>/wp-content/uploads/2018/11/cropped-logo-pediact-small.png" class="custom-logo" alt="Laboratoire PediAct" />
+    <img width="206" height="35" src="<?php echo URLROOT; ?>/img/DS-Pharma-loxxxgo-final.png" class="custom-logo" alt="Laboratoire PediAct" />
   </a>
 </div>
 <div class="main-menu--navigation">
@@ -104,3 +104,4 @@
 <div class="main-menu--mobile-btn">
   <button class="" type="button" data-toggle="off-canvas">☰</button>
 </div>
+

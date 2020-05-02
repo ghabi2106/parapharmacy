@@ -15,7 +15,7 @@
 	<link rel="pingback" href="xmlrpc.php">
 
 	<link type="text/css" media="all" href="<?php echo URLROOT; ?>/wp-content/cache/autoptimize/css/autoptimize_f768e0fe59fb71b9c6f4f14624ed7ae2.css" rel="stylesheet" />
-	<title>Accueil - Laboratoire PediAct, spécialiste de la pédiatrie</title>
+	<title>Accueil - Laboratoire DSPharma, spécialiste de la parapharmacie</title>
 
 	<!-- This site is optimized with the Yoast SEO plugin v12.5.1 - https://yoast.com/wordpress/plugins/seo/ -->
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
@@ -30,8 +30,8 @@
 	<link rel='dns-prefetch' href='http://js.hs-scripts.com/' />
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 	<link rel='dns-prefetch' href='http://s.w.org/' />
-	<link rel="alternate" type="application/rss+xml" title="Laboratoire PediAct &raquo; Flux" href="feed/index.html" />
-	<link rel="alternate" type="application/rss+xml" title="Laboratoire PediAct &raquo; Flux des commentaires" href="comments/feed/index.html" />
+	<link rel="alternate" type="application/rss+xml" title="Laboratoire DSPharma &raquo; Flux" href="feed/index.html" />
+	<link rel="alternate" type="application/rss+xml" title="Laboratoire DSPharma &raquo; Flux des commentaires" href="comments/feed/index.html" />
 	<script type="text/javascript">
 		var $TS_VCSC_CurrentPluginRelease = "5.3.2";
 		var $TS_VCSC_CurrentComposerRelease = "5.5.2";
@@ -200,10 +200,10 @@
 	<!-- DO NOT COPY THIS SNIPPET! End of Page Analytics Tracking for HubSpot WordPress plugin -->
 	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
 
-	<link rel="icon" href="<?php echo URLROOT; ?>/wp-content/uploads/2019/02/fav-icon.png" sizes="32x32" />
-	<link rel="icon" href="<?php echo URLROOT; ?>/wp-content/uploads/2019/02/fav-icon.png" sizes="192x192" />
-	<link rel="apple-touch-icon-precomposed" href="<?php echo URLROOT; ?>/wp-content/uploads/2019/02/fav-icon.png" />
-	<meta name="msapplication-TileImage" content="<?php echo URLROOT; ?>/wp-content/uploads/2019/02/fav-icon.png" />
+	<link rel="icon" href="<?php echo URLROOT; ?>/img/cropped-DS-Pharma-loxgo-final-1.png" sizes="32x32" />
+	<link rel="icon" href="<?php echo URLROOT; ?>/img/cropped-DS-Pharma-loxgo-final-1.png" sizes="192x192" />
+	<link rel="apple-touch-icon-precomposed" href="<?php echo URLROOT; ?>/img/cropped-DS-Pharma-loxgo-final-1.png" />
+	<meta name="msapplication-TileImage" content="<?php echo URLROOT; ?>/img/cropped-DS-Pharma-loxgo-final-1.png" />
 	<style type="text/css" data-type="vc_shortcodes-custom-css">
 		.vc_custom_1568821342700 {
 			margin-top: 0px !important;
@@ -225,7 +225,7 @@
 			padding-right: 0px !important;
 			padding-bottom: 0px !important;
 			padding-left: 0px !important;
-			background: #f6f5f7 url("<?php echo URLROOT; ?>/wp-content/uploads/2019/09/biogaia-desktop83eb.png") !important;
+			background: #f6f5f7 url("<?php echo URLROOT; ?>/img/Prosol-slider.png") !important;
 			background-position: center !important;
 			background-repeat: no-repeat !important;
 			background-size: cover !important;
@@ -240,7 +240,7 @@
 			padding-right: 0px !important;
 			padding-bottom: 0px !important;
 			padding-left: 0px !important;
-			background: #f9f9f9 url("<?php echo URLROOT; ?>/wp-content/uploads/2019/09/capricare-desktop.png") !important;
+			background: #f9f9f9 url("<?php echo URLROOT; ?>/img/proclair-new.gif") !important;
 			background-position: center !important;
 			background-repeat: no-repeat !important;
 			background-size: cover !important;
@@ -255,7 +255,7 @@
 			padding-right: 0px !important;
 			padding-bottom: 0px !important;
 			padding-left: 0px !important;
-			background: #f9f9f9 url("<?php echo URLROOT; ?>/wp-content/uploads/2019/12/Pediact-gamme-v2-min.png") !important;
+			background: #f9f9f9 url("<?php echo URLROOT; ?>/img/slideshow_4.jpeg") !important;
 			background-position: center !important;
 			background-repeat: no-repeat !important;
 			background-size: cover !important;
@@ -305,16 +305,16 @@
 	<!-- Drop Google Analytics here -->
 	<!-- end analytics -->
 
-	<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1535977176370{background-image: url(../wp-content/uploads/2018/07/slider-notre-laboratoiree611.jpg?id=1017) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
-	<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1532686795385{background-image: url(../wp-content/uploads/2018/07/slider-nous-rejoindre8a08.jpg?id=1050) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
-	<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1532958595576{background-image: url(../wp-content/uploads/2018/07/slider-nous-contacter6444.jpg?id=1143) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
-	<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1533811542569{background-image: url(../wp-content/uploads/2018/05/2560x1044-Couverture-pediact-nosguides60f4.jpg?id=1426) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
-    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1546966815843{background-image: url(../wp-content/uploads/2019/01/2560x1044-Couverture-pediact-blog-imgoptim6f66.jpg?id=55562) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
-    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1533309653946{background-image: url(../wp-content/uploads/2018/08/slider-dermatologiec136.jpg?id=1361) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
-    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1532683661729{background-image: url(../wp-content/uploads/2018/07/header-ferments-lactiques9a93.jpg?id=863) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
-    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1533308574135{background-image: url(../wp-content/uploads/2018/08/slider-nutrition-infantiled4d2.jpg?id=1349) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
-    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1533310954723{background-image: url(../wp-content/uploads/2018/08/slider-orldf2f.jpg?id=1381) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
-    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1533312551520{background-image: url(../wp-content/uploads/2018/08/slider-pneumologie62f0.jpg?id=1402) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+	<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1535977176370{background-image: url("<?php echo URLROOT; ?>/wp-content/uploads/2018/07/slider-notre-laboratoiree611.jpg?id=1017") !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+	<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1532686795385{background-image: url("<?php echo URLROOT; ?>/wp-content/uploads/2018/07/slider-nous-rejoindre8a08.jpg?id=1050") !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+	<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1532958595576{background-image: url("<?php echo URLROOT; ?>/wp-content/uploads/2018/07/slider-nous-contacter6444.jpg?id=1143") !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+	<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1533811542569{background-image: url("<?php echo URLROOT; ?>/wp-content/uploads/2018/05/2560x1044-Couverture-pediact-nosguides60f4.jpg?id=1426") !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1546966815843{background-image: url("<?php echo URLROOT; ?>/wp-content/uploads/2019/01/2560x1044-Couverture-pediact-blog-imgoptim6f66.jpg?id=55562") !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1533309653946{background-image: url("<?php echo URLROOT; ?>/wp-content/uploads/2018/08/slider-dermatologiec136.jpg?id=1361") !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1532683661729{background-image: url("<?php echo URLROOT; ?>/wp-content/uploads/2018/07/header-ferments-lactiques9a93.jpg?id=863") !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1533308574135{background-image: url("<?php echo URLROOT; ?>/wp-content/uploads/2018/08/slider-nutrition-infantiled4d2.jpg?id=1349") !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1533310954723{background-image: url("<?php echo URLROOT; ?>/wp-content/uploads/2018/08/slider-orldf2f.jpg?id=1381") !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1533312551520{background-image: url("<?php echo URLROOT; ?>/wp-content/uploads/2018/08/slider-pneumologie62f0.jpg?id=1402") !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
 
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

@@ -45,7 +45,7 @@
                       <div class="vc_btn3-container  product-tabs--button gouttes vc_btn3-right">
                         <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-color-grey" href="#" title="" onclick="openProduct(event, 
                             &#039;product<?php echo $pharmaceutical->id; ?>&#039;, 
-                            &#039;<?php echo URLROOT; ?>/img/uploads/pharmaceuticals/<?php echo $pharmaceutical->img; ?>&#039;, 
+                            &#039;<?php echo URLROOT; ?>/img/pharmaceuticals/<?php echo $pharmaceutical->img; ?>&#039;, 
                             &#039;theme-<?php echo (!empty($pharmaceutical->color)) ? $pharmaceutical->color : 'orange'; ?>&#039;)">
                           Découvrir le produit
                         </a>
@@ -86,7 +86,7 @@
 
                         <figure class="wpb_wrapper vc_figure">
                           <div class="vc_single_image-wrapper   vc_box_border_grey">
-                            <img width="639" height="415" src="<?php echo URLROOT; ?>/img/uploads/pharmaceuticals/<?php echo $pharmaceutical->img1; ?>" class="vc_single_image-img attachment-full" alt="produit-biogaia-goutte" sizes="(max-width: 639px) 100vw, 639px" />
+                            <img width="639" height="415" src="<?php echo URLROOT; ?>/img/pharmaceuticals/<?php echo $pharmaceutical->img1; ?>" class="vc_single_image-img attachment-full" alt="produit-biogaia-goutte" sizes="(max-width: 639px) 100vw, 639px" />
                           </div>
                         </figure>
                       </div>
@@ -109,7 +109,7 @@
 
                         <figure class="wpb_wrapper vc_figure">
                           <div class="vc_single_image-wrapper   vc_box_border_grey">
-                            <img width="649" height="598" src="<?php echo URLROOT; ?>/img/uploads/pharmaceuticals/<?php echo $pharmaceutical->img2; ?>" class="vc_single_image-img attachment-full" alt="mere-et-nourrisson" sizes="(max-width: 649px) 100vw, 649px" />
+                            <img width="649" height="598" src="<?php echo URLROOT; ?>/img/pharmaceuticals/<?php echo $pharmaceutical->img2; ?>" class="vc_single_image-img attachment-full" alt="mere-et-nourrisson" sizes="(max-width: 649px) 100vw, 649px" />
                           </div>
                         </figure>
                       </div>
@@ -288,7 +288,7 @@
                       <figure class="wpb_wrapper vc_figure">
                         <div class="vc_single_image-wrapper   vc_box_border_grey">
                           <img width="649" height="598" 
-                          src="<?php echo URLROOT; ?>/img/uploads/categories/<?php echo $data["category"]->img1; ?>" 
+                          src="<?php echo URLROOT; ?>/img/categories/<?php echo $data["category"]->img1; ?>" 
                             class="vc_single_image-img attachment-full" 
                             alt="petit-garcon-avec-panier" 
                             sizes="(max-width: 649px) 100vw, 649px" />

@@ -1,95 +1,152 @@
 <?php
-  class Pages extends Controller {
-    public function __construct(){
-     
-    }
-    
-    public function index(){
+class Pages extends Controller
+{
+  public function __construct()
+  {
+    $this->categoryModel = $this->model('Category');
+  }
 
-      $data = [
-        'title' => 'Pharmacy',
-        'description' => 'Simple social network built on the TraversyMVC PHP framework'
-      ];
-     
-      $this->view('pages/index', $data);
-    }
+  public function index()
+  {
+    // Get categories
+    $categories = $this->categoryModel->getCategories();
 
-    public function notreLaboratoire(){
-      $data = [
-        'title' => 'Notre Laboratoire',
-      ];
+    $data = [
+      'categories' => $categories,
+      'title' => 'Pharmacy',
+      'description' => 'Simple social network built on the TraversyMVC PHP framework'
+    ];
 
-      $this->view('pages/notreLaboratoire', $data);
-    }
-    public function nousrejoindre(){
-      $data = [
-        'title' => 'Nous Rejoindre',
-      ];
+    $this->view('pages/index', $data);
+  }
 
-      $this->view('pages/nousrejoindre', $data);
-    }
-    public function notreblog(){
-      $data = [
-        'title' => 'Notre Blog',
-      ];
+  public function notreLaboratoire()
+  {
+    // Get categories
+    $categories = $this->categoryModel->getCategories();
 
-      $this->view('pages/notreblog', $data);
-    }
-    public function nosguides(){
-      $data = [
-        'title' => 'Nos Guides',
-      ];
+    $data = [
+      'categories' => $categories,
+      'title' => 'Notre Laboratoire',
+    ];
 
-      $this->view('pages/nosguides', $data);
-    }
-    public function nouscontacter(){
-      $data = [
-        'title' => 'Nous Contacter',
-      ];
+    $this->view('pages/notreLaboratoire', $data);
+  }
 
-      $this->view('pages/nouscontacter', $data);
-    }
+  public function nousrejoindre()
+  {
+    // Get categories
+    $categories = $this->categoryModel->getCategories();
 
-  
-    public function dermatologie(){
-      $data = [
-        'title' => 'Dermatologie',
-      ];
+    $data = [
+      'categories' => $categories,
+      'title' => 'Nous Rejoindre',
+    ];
 
-      $this->view('pages/dermatologie', $data);
-    }
+    $this->view('pages/nousrejoindre', $data);
+  }
 
-    public function fermentslactiques(){
-      $data = [
-        'title' => 'Ferments Lactiques',
-      ];
+  public function notreblog()
+  {
+    // Get categories
+    $categories = $this->categoryModel->getCategories();
 
-      $this->view('pages/fermentslactiques', $data);
-    }
+    $data = [
+      'categories' => $categories,
+      'title' => 'Notre Blog',
+    ];
 
-    public function nutritioninfantile(){
-      $data = [
-        'title' => 'Nutrition Infantile',
-      ];
+    $this->view('pages/notreblog', $data);
+  }
 
-      $this->view('pages/nutritioninfantile', $data);
-    }
+  public function nosguides()
+  {
+    // Get categories
+    $categories = $this->categoryModel->getCategories();
 
-    public function orl(){
-      $data = [
-        'title' => 'ORL',
-      ];
+    $data = [
+      'categories' => $categories,
+      'title' => 'Nos Guides',
+    ];
 
-      $this->view('pages/orl', $data);
-    }
+    $this->view('pages/nosguides', $data);
+  }
 
-    public function pneumologie(){
-      $data = [
-        'title' => 'Pneumologie',
-      ];
+  public function nouscontacter()
+  {
+    // Get categories
+    $categories = $this->categoryModel->getCategories();
 
-      $this->view('pages/pneumologie', $data);
-    }
+    $data = [
+      'categories' => $categories,
+      'title' => 'Nous Contacter',
+    ];
 
+    $this->view('pages/nouscontacter', $data);
+  }
+
+  public function dermatologie()
+  {
+    // Get categories
+    $categories = $this->categoryModel->getCategories();
+
+    $data = [
+      'categories' => $categories,
+      'title' => 'Dermatologie',
+    ];
+
+    $this->view('pages/dermatologie', $data);
+  }
+
+  public function fermentslactiques()
+  {
+    // Get categories
+    $categories = $this->categoryModel->getCategories();
+
+    $data = [
+      'categories' => $categories,
+      'title' => 'Ferments Lactiques',
+    ];
+
+    $this->view('pages/fermentslactiques', $data);
+  }
+
+  public function nutritioninfantile()
+  {
+    // Get categories
+    $categories = $this->categoryModel->getCategories();
+
+    $data = [
+      'categories' => $categories,
+      'title' => 'Nutrition Infantile',
+    ];
+
+    $this->view('pages/nutritioninfantile', $data);
+  }
+
+  public function orl()
+  {
+    // Get categories
+    $categories = $this->categoryModel->getCategories();
+
+    $data = [
+      'categories' => $categories,
+      'title' => 'ORL',
+    ];
+
+    $this->view('pages/orl', $data);
+  }
+
+  public function pneumologie()
+  {
+    // Get categories
+    $categories = $this->categoryModel->getCategories();
+
+    $data = [
+      'categories' => $categories,
+      'title' => 'Pneumologie',
+    ];
+
+    $this->view('pages/pneumologie', $data);
+  }
 }
-  

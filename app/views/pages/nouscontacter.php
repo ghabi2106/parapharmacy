@@ -46,7 +46,7 @@
                                     <div class="wpb_wrapper">
                                         <div class="wpb_text_column wpb_content_element  generic-title-alt">
                                             <div class="wpb_wrapper">
-                                                <p><img class="alignnone wp-image-62 size-full" src="../wp-content/uploads/2018/05/logo-pediact-small.png" alt="PediAct Alimentation Lactée et Asthme du Nourrisson et Remède Varicelle" width="206" height="35" /></p>
+                                                <p><img class="alignnone wp-image-62 size-full" src="<?php echo URLROOT; ?>/img/DS-Pharma-logo-final.png" alt="PediAct Alimentation Lactée et Asthme du Nourrisson et Remède Varicelle" width="206" height="35" /></p>
 
                                             </div>
                                         </div>
@@ -66,13 +66,16 @@
                                         <div class="wpb_text_column wpb_content_element  contact-infos--list">
                                             <div class="wpb_wrapper">
                                                 <ul style="font-size: 16px;">
-                                                    <li>Laboratoire PediAct</li>
-                                                    <li>38-42 rue Gallieni</li>
-                                                    <li>92600 ASNIÈRES SUR SEINE</li>
-                                                    <li><a href="m&#x61;i&#108;&#x74;o&#x3a;&#x69;n&#x66;o&#64;&#x70;e&#100;&#x69;a&#x63;t&#46;&#x63;o&#109;">i&#x6e;&#x66;o&#x40;&#x70;e&#x64;&#x69;a&#x63;&#x74;.&#x63;&#x6f;m</a></li>
-                                                    <li>+33 (0)1 76 21 61 20</li>
-                                                    <li><strong>Service client :</strong></li>
-                                                    <li><strong>+33 (0)1 76 21 61 24</strong></li>
+                                                    <li>Laboratoire DSPharma</li>
+                                                    <li><strong>Canada</strong></li>
+                                                    <li>10725, Rue Clark 207, Montréal (QC) H3L 2S8</li>
+                                                    <li>001-438-931-0893</li>
+                                                    <li></li>
+                                                    <li><strong>Tunisie</strong></li>
+                                                    <li>Sahloul-Sousse</li>
+                                                    <li>‎+216 73 368 723</li>
+                                                    <li>+216 73 368 722</li>
+                                                    <li><a href="contact@dspharma.ca">contact@dspharma.ca</a></li>
                                                 </ul>
 
                                             </div>
