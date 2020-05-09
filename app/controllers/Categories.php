@@ -17,7 +17,8 @@ class Categories extends Controller
     $categories = $this->categoryModel->getCategories();
 
     $data = [
-      'categories' => $categories
+      'categories' => $categories,
+      'name' => 'categories-index'
     ];
 
     $this->view('categories/index', $data);
@@ -47,7 +48,8 @@ class Categories extends Controller
       'categories' => $categories,
       'category' => $category,
       'pharmaceuticals' => $pharmaceuticals,
-      'page_links' => $page_links
+      'page_links' => $page_links,
+      'name' => 'categories-show'
     ];
     $this->view('categories/show', $data);
   }

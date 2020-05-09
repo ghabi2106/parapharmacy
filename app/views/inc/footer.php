@@ -3,7 +3,8 @@
     <div id="text-49" class="footer--widget widget widget_text">
       <h4 class="footer--widget-title">en quelques mots</h4>
       <div class="textwidget">
-        <p>En distribuant des produits soigneusement sélectionnés, le Laboratoire PediAct se positionne comme un acteur fort de la santé de toute la famille.</p>
+        <p>En distribuant des produits soigneusement sélectionnés, le Laboratoire DS Pharma se positionne 
+          comme un acteur fort de la santé du bien être.</p>
       </div>
     </div>
     <div id="custom_html-3" class="widget_text footer--widget widget widget_custom_html">
@@ -26,10 +27,8 @@
       <h4 class="footer--widget-title">suivez-nous sur les réseaux sociaux !</h4>
 
       <ul class="zoom-social-icons-list zoom-social-icons-list--without-canvas zoom-social-icons-list--round zoom-social-icons-list--no-labels">
-
-
         <li class="zoom-social_icons-list__item">
-          <a class="zoom-social_icons-list__link" href="https://www.facebook.com/Pediact/" target="_blank">
+          <a class="zoom-social_icons-list__link" href="https://www.facebook.com/" target="_blank">
 
             <span class="screen-reader-text">facebook</span>
 
@@ -40,10 +39,8 @@
             </span>
           </a>
         </li>
-
-
         <li class="zoom-social_icons-list__item">
-          <a class="zoom-social_icons-list__link" href="https://twitter.com/Lab_pediAct" target="_blank">
+          <a class="zoom-social_icons-list__link" href="https://twitter.com/" target="_blank">
 
             <span class="screen-reader-text">twitter</span>
 
@@ -54,10 +51,8 @@
             </span>
           </a>
         </li>
-
-
         <li class="zoom-social_icons-list__item">
-          <a class="zoom-social_icons-list__link" href="http://www.pinterest.com/pediact/" target="_blank">
+          <a class="zoom-social_icons-list__link" href="http://www.pinterest.com/" target="_blank">
 
             <span class="screen-reader-text">pinterest</span>
 
@@ -68,10 +63,8 @@
             </span>
           </a>
         </li>
-
-
         <li class="zoom-social_icons-list__item">
-          <a class="zoom-social_icons-list__link" href="https://plus.google.com/u/0/116042505048146194887/" target="_blank">
+          <a class="zoom-social_icons-list__link" href="https://plus.google.com/" target="_blank">
 
             <span class="screen-reader-text">google</span>
 
@@ -82,10 +75,8 @@
             </span>
           </a>
         </li>
-
-
         <li class="zoom-social_icons-list__item">
-          <a class="zoom-social_icons-list__link" href="https://www.linkedin.com/company/laboratoire-pediact" target="_blank">
+          <a class="zoom-social_icons-list__link" href="https://www.linkedin.com/" target="_blank">
 
             <span class="screen-reader-text">linkedin</span>
 
@@ -95,10 +86,8 @@
             </span>
           </a>
         </li>
-
-
         <li class="zoom-social_icons-list__item">
-          <a class="zoom-social_icons-list__link" href="feed/index.html" target="_blank">
+          <a class="zoom-social_icons-list__link" href="#" target="_blank">
 
             <span class="screen-reader-text">rss</span>
 
@@ -109,8 +98,6 @@
             </span>
           </a>
         </li>
-
-
       </ul>
 
     </div>
@@ -118,17 +105,26 @@
       <h4 class="footer--widget-title">le laboratoire DSPharma</h4>
       <div class="menu-footer-main-pages-container">
         <ul id="menu-footer-main-pages" class="menu">
-          <li id="menu-item-56357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-55738 current_page_item menu-item-56357 active"><a href="<?php echo URLROOT; ?>" aria-current="page">Accueil</a></li>
-          <li id="menu-item-41724" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41724"><a href="nous-rejoindre/index.html">Nous Rejoindre</a></li>
-          <li id="menu-item-41723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41723"><a href="<?php echo URLROOT; ?>/pages/nouscontacter">Nous Contacter</a></li>
-          <li id="menu-item-41719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41719"><a href="<?php echo URLROOT; ?>/pages/fermentslactiques">Ferments Lactiques</a></li>
-          <li id="menu-item-41725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41725"><a href="<?php echo URLROOT; ?>/pages/nutritioninfantile">Nutrition Infantile</a></li>
-          <li id="menu-item-41726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41726"><a href="<?php echo URLROOT; ?>/pages/orl">ORL</a></li>
-          <li id="menu-item-41728" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41728"><a href="<?php echo URLROOT; ?>/pages/pneumologie">Pneumologie</a></li>
-          <li id="menu-item-41718" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41718"><a href="<?php echo URLROOT; ?>/pages/dermatologie">Dermatologie</a></li>
-          <li id="menu-item-41720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41720"><a href="<?php echo URLROOT; ?>/pages/nosguides">Nos Guides</a></li>
-          <li id="menu-item-41721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41721"><a href="<?php echo URLROOT; ?>/pages/notreblog">Notre Blog</a></li>
-          <li id="menu-item-56168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56168"><a href="ou-acheter-nos-produits/index.html">Où Acheter</a></li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item
+                <?php if ($data["name"] == "categories-index") echo "active"; ?>">
+          <a href="<?php echo URLROOT; ?>" aria-current="page">Accueil</a></li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page
+                <?php if ($data["name"] == "pages-nousrejoindre") echo "active"; ?>">
+            <a href="<?php echo URLROOT; ?>/pages/nousrejoindre">Nous Rejoindre</a></li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page 
+                <?php if ($data["name"] == "pages-notrelaboratoire") echo "active"; ?>">
+            <a href="<?php echo URLROOT; ?>/pages/notrelaboratoire">Notre Laboratoire</a></li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page
+                <?php if ($data["name"] == "pages-notreblog") echo "active"; ?>">
+            <a href="<?php echo URLROOT; ?>/pages/notreblog">Notre Blog</a></li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page
+                <?php if ($data["name"] == "pages-nosguides") echo "active"; ?>">
+            <a href="<?php echo URLROOT; ?>/pages/nosguides">Nos Guides</a></li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page
+                <?php if ($data["name"] == "pages-nouscontacter") echo "active"; ?>">
+            <a href="<?php echo URLROOT; ?>/pages/nouscontacter">Nous Contacter</a></li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="<?php echo URLROOT; ?>/pages/ouacheter">Où Acheter</a></li>
         </ul>
       </div>
     </div>
@@ -145,18 +141,18 @@
       </div>
     </div>
     <div id="nav_menu-10" class="footer--widget widget widget_nav_menu">
-      <h4 class="footer--widget-title">nos thématiques pédiatriques</h4>
+      <h4 class="footer--widget-title">nos thématiques beauté & saté</h4>
       <div class="menu-footer-categories-container">
         <ul id="menu-footer-categories" class="menu">
-          <li id="menu-item-41736" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41736"><a href="pediatrie/allergologie/index.html">Allergologie</a></li>
-          <li id="menu-item-41734" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41734"><a href="pediatrie/autres-sujets/index.html">Autres sujets</a></li>
-          <li id="menu-item-41731" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41731"><a href="pediatrie/bien-etre/index.html">Bien-être</a></li>
-          <li id="menu-item-41732" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41732"><a href="pediatrie/dermatologie/index.html">Dermatologie</a></li>
-          <li id="menu-item-41737" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41737"><a href="pediatrie/formule-infantile-a-base-de-lait-de-chevre/index.html">Formule infantile à base de lait de chèvre</a></li>
-          <li id="menu-item-41729" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41729"><a href="pediatrie/generalites-pediatriques/index.html">Généralités Pédiatriques</a></li>
-          <li id="menu-item-41730" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41730"><a href="pediatrie/nutrition-infantile/index.html">Nutrition infantile</a></li>
-          <li id="menu-item-41733" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41733"><a href="pediatrie/oto-rhino-laryngologie/index.html">ORL</a></li>
-          <li id="menu-item-41735" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41735"><a href="pediatrie/pneumologie/index.html">Pneumologie</a></li>
+          <li id="menu-item-41736" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41736"><a href="<?php echo URLROOT; ?>/articles/huiles">Maquillage</a></li>
+          <li id="menu-item-41734" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41734"><a href="<?php echo URLROOT; ?>/articles/huiles">Solaire</a></li>
+          <li id="menu-item-41731" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41731"><a href="<?php echo URLROOT; ?>/articles/huiles">Soin du visage</a></li>
+          <li id="menu-item-41732" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41732"><a href="<?php echo URLROOT; ?>/articles/huiles">Soin du corps</a></li>
+          <li id="menu-item-41737" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41737"><a href="<?php echo URLROOT; ?>/articles/huiles">Soin du cheveux</a></li>
+          <li id="menu-item-41729" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41729"><a href="<?php echo URLROOT; ?>/articles/huiles">Cosmétique minceur</a></li>
+          <li id="menu-item-41730" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41730"><a href="<?php echo URLROOT; ?>/articles/huiles">Alimentation bébé</a></li>
+          <li id="menu-item-41733" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41733"><a href="<?php echo URLROOT; ?>/articles/huiles">Grossesse</a></li>
+          <li id="menu-item-41735" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41735"><a href="<?php echo URLROOT; ?>/articles/huiles">Compléments alimentaires</a></li>
         </ul>
       </div>
     </div>

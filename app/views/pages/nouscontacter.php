@@ -30,12 +30,25 @@
                         </div>
                     </section>
                     <div class="vc_row-full-width vc_clearfix"></div>
-                    <section id="section--contact-infos" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_section">
+                    <section id="section--contact-infos" data-vc-full-width="true" data-vc-full-width-init="false" 
+                        data-vc-stretch-content="true" class="vc_section">
                         <div class="vc_row wpb_row vc_row-fluid">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
                                     <div class="wpb_wrapper">
-                                        <div id="scroll-down" style=" margin-top: 0px; margin-bottom: 0px;" class="ts-vcsc-font-icon ts-font-icons ts-shortcode ts-icon-align-center     " data-type="icon" data-active="ts-infinite-css-bounce" data-viewport="" data-opacity="1" data-delay="0" data-animation=""><a class="ts-font-icons-link ts-button-page-navigator" href="#to-scroll" target="_parent" title="" data-scroll-target="to-scroll" data-scroll-speed="1000" data-scroll-effect="easeOutSine" data-scroll-offsetdesktop="125" data-scroll-offsettablet="0" data-scroll-offsetmobile="0" data-scroll-hashtag="false"><i class="ts-font-icon fa fa-angle-down   ts-infinite-css-bounce" style="background-color:; width: auto; height: auto; font-size: 3.0rem; line-height: 100%;color:#5ec4ef;"></i></a></div>
+                                        <div id="scroll-down" style=" margin-top: 0px; margin-bottom: 0px;" 
+                                            class="ts-vcsc-font-icon ts-font-icons ts-shortcode ts-icon-align-center" 
+                                            data-type="icon" data-active="ts-infinite-css-bounce" data-viewport="" data-opacity="1" 
+                                            data-delay="0" data-animation="">
+                                            <a class="ts-font-icons-link ts-button-page-navigator" 
+                                                href="#to-scroll" target="_parent" title="" data-scroll-target="to-scroll" data-scroll-speed="1000" 
+                                                data-scroll-effect="easeOutSine" data-scroll-offsetdesktop="125" data-scroll-offsettablet="0" 
+                                                data-scroll-offsetmobile="0" data-scroll-hashtag="false">
+                                                <i class="ts-font-icon fal fa-angle-down ts-infinite-css-bounce" 
+                                                    style="width: auto; height: auto; font-size: 10.0rem;line-height: 100%;color:#5ec4ef;">
+                                                </i>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -46,15 +59,23 @@
                                     <div class="wpb_wrapper">
                                         <div class="wpb_text_column wpb_content_element  generic-title-alt">
                                             <div class="wpb_wrapper">
-                                                <p><img class="alignnone wp-image-62 size-full" src="<?php echo URLROOT; ?>/img/DS-Pharma-logo-final.png" alt="PediAct Alimentation Lactée et Asthme du Nourrisson et Remède Varicelle" width="206" height="35" /></p>
+                                                <p>
+                                                    <img class="alignnone wp-image-62 size-full" src="<?php echo URLROOT; ?>/img/logos/DS-Pharma-logo-final.png" 
+                                                        alt="PediAct Alimentation Lactée et Asthme du Nourrisson et Remède Varicelle" 
+                                                        width="206" height="35" />
+                                                </p>
 
                                             </div>
                                         </div>
 
                                         <div class="wpb_text_column wpb_content_element  generic-text-alt">
                                             <div class="wpb_wrapper">
-                                                <p style="font-size: 16px;">Que vous soyez un particulier ou un professionnel de santé, cet espace est le votre ! N&#8217;hésitez pas à prendre contact avec nous si vous avez une question ou si vous souhaitez avoir plus de renseignements sur nos produits. Nous vous répondrons dans les plus brefs délais.</p>
-
+                                                <p style="font-size: 16px;">
+                                                    Que vous soyez un particulier ou un professionnel de santé, 
+                                                    cet espace est le votre ! N&#8217;hésitez pas à prendre contact avec nous si vous avez 
+                                                    une question ou si vous souhaitez avoir plus de renseignements sur nos produits. Nous vous 
+                                                    répondrons dans les plus brefs délais.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -84,36 +105,6 @@
                                 </div>
                             </div>
                         </div>
-                    </section>
-                    <div class="vc_row-full-width vc_clearfix"></div>
-                    <section id="section--contact-form" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_section">
-                        <div class="vc_row wpb_row vc_row-fluid contact-form--row generic-wrapper">
-                            <div class="contact-form--column wpb_column vc_column_container vc_col-sm-12">
-                                <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
-                                        <div class="wpb_raw_code wpb_raw_js">
-                                            <div class="wpb_wrapper">
-                                                <!--[if lte IE 8]>
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-<![endif]-->
-                                                <script charset="utf-8" type="text/javascript" src="../../js.hsforms.net/forms/v2.js"></script>
-                                                <script>
-                                                    hbspt.forms.create({
-                                                        portalId: "538829",
-                                                        formId: "8407b9ae-f6f6-48d5-bf66-80fba4e6cece",
-                                                        css: "",
-                                                        cssClass: "form-contact"
-                                                    });
-                                                </script>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <div class="vc_row-full-width vc_clearfix"></div>
-                    <section id="section--contact-view" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_section">
                         <div class="vc_row wpb_row vc_row-fluid contact-view--row generic-wrapper">
                             <div class="contact-view--column wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
@@ -121,49 +112,14 @@
                                         <div class="wpb_text_column wpb_content_element  generic-title-alt">
                                             <div class="wpb_wrapper">
                                                 <h3>Avis important</h3>
-
                                             </div>
                                         </div>
-
                                         <div class="wpb_text_column wpb_content_element  contact-view--text">
                                             <div class="wpb_wrapper">
-                                                <p>Quels que soient les symptômes de votre enfant, il est important de vous orienter vers un professionnel de santé pour vous assurer qu’il puisse bénéficier d’une prise en charge adaptée.</p>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="vc_row wpb_row vc_row-fluid">
-                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
-                                        <div class="wpb_raw_code wpb_content_element wpb_raw_html">
-                                            <div class="wpb_wrapper">
-                                                <script type="application/ld+json">
-                                                    {
-                                                        "@context": "http://schema.org/",
-                                                        "@type": "BreadcrumbList",
-                                                        "itemListElement": [{
-                                                                "@type": "ListItem",
-                                                                "position": "1",
-                                                                "item": {
-                                                                    "@id": "https://www.pediact.com/",
-                                                                    "name": "Home"
-                                                                }
-                                                            },
-                                                            {
-                                                                "@type": "ListItem",
-                                                                "position": "2",
-                                                                "item": {
-                                                                    "@id": "https://www.pediact.com/nous-contacter/",
-                                                                    "name": "Nous Contacter"
-                                                                }
-                                                            }
-                                                        ]
-                                                    }
-                                                </script>
+                                                <p>Quels que soient les dégats de votre beauté, il est important de vous orienter 
+                                                    vers un professionnel de santé pour vous assurer qu’il puisse bénéficier d’une prise 
+                                                    en charge adaptée.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -175,22 +131,8 @@
                 </section> <!-- end article section -->
                 <!-- <footer class="article-footer">
 </footer> -->
-
-
-                <div id="comments" class="comments-area">
-
-
-
-
-
-                </div><!-- #comments -->
             </div> <!-- end article -->
-
-
-
         </main> <!-- end #main -->
-
     </div> <!-- end #inner-content -->
-
 </div> <!-- end #content -->
 <?php require APPROOT . '/views/inc/footer.php'; ?>

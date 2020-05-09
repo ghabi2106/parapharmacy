@@ -35,7 +35,9 @@
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
                                     <div class="wpb_wrapper">
-                                        <div id="scroll-down" style=" margin-top: 0px; margin-bottom: 0px;" class="ts-vcsc-font-icon ts-font-icons ts-shortcode ts-icon-align-center     " data-type="icon" data-active="ts-infinite-css-bounce" data-viewport="" data-opacity="1" data-delay="0" data-animation=""><a class="ts-font-icons-link ts-button-page-navigator" href="#to-scroll" target="_parent" title="" data-scroll-target="to-scroll" data-scroll-speed="1000" data-scroll-effect="easeOutSine" data-scroll-offsetdesktop="125" data-scroll-offsettablet="0" data-scroll-offsetmobile="0" data-scroll-hashtag="false"><i class="ts-font-icon fa fa-angle-down   ts-infinite-css-bounce" style="background-color:; width: auto; height: auto; font-size: 3.0rem; line-height: 100%;color:#5ec4ef;"></i></a></div>
+                                        <div id="scroll-down" style=" margin-top: 0px; margin-bottom: 0px;" class="ts-vcsc-font-icon ts-font-icons ts-shortcode ts-icon-align-center     " data-type="icon" data-active="ts-infinite-css-bounce" data-viewport="" data-opacity="1" data-delay="0" data-animation=""><a class="ts-font-icons-link ts-button-page-navigator" href="#to-scroll" target="_parent" title="" data-scroll-target="to-scroll" data-scroll-speed="1000" data-scroll-effect="easeOutSine" data-scroll-offsetdesktop="125" data-scroll-offsettablet="0" data-scroll-offsetmobile="0" data-scroll-hashtag="false">
+                                            <i class="ts-font-icon fal fa-angle-down   ts-infinite-css-bounce" 
+                                            style="width: auto; height: auto; font-size: 10.0rem; line-height: 100%;color:#5ec4ef;"></i></a></div>
                                     </div>
                                 </div>
                             </div>

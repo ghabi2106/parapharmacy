@@ -14,7 +14,8 @@ class Pages extends Controller
     $data = [
       'categories' => $categories,
       'title' => 'Pharmacy',
-      'description' => 'Simple social network built on the TraversyMVC PHP framework'
+      'description' => 'Simple social network built on the TraversyMVC PHP framework',
+      'name' => 'pages-index'
     ];
 
     $this->view('pages/index', $data);
@@ -28,6 +29,7 @@ class Pages extends Controller
     $data = [
       'categories' => $categories,
       'title' => 'Notre Laboratoire',
+      'name' => 'pages-notrelaboratoire'
     ];
 
     $this->view('pages/notreLaboratoire', $data);
@@ -41,6 +43,7 @@ class Pages extends Controller
     $data = [
       'categories' => $categories,
       'title' => 'Nous Rejoindre',
+      'name' => 'pages-nousrejoindre'
     ];
 
     $this->view('pages/nousrejoindre', $data);
@@ -54,6 +57,7 @@ class Pages extends Controller
     $data = [
       'categories' => $categories,
       'title' => 'Notre Blog',
+      'name' => 'pages-notreblog'
     ];
 
     $this->view('pages/notreblog', $data);
@@ -67,6 +71,7 @@ class Pages extends Controller
     $data = [
       'categories' => $categories,
       'title' => 'Nos Guides',
+      'name' => 'pages-nosguides'
     ];
 
     $this->view('pages/nosguides', $data);
@@ -80,73 +85,23 @@ class Pages extends Controller
     $data = [
       'categories' => $categories,
       'title' => 'Nous Contacter',
+      'name' => 'pages-nouscontacter'
     ];
 
     $this->view('pages/nouscontacter', $data);
   }
 
-  public function dermatologie()
+  public function ouacheter()
   {
     // Get categories
     $categories = $this->categoryModel->getCategories();
 
     $data = [
       'categories' => $categories,
-      'title' => 'Dermatologie',
+      'title' => 'Ou acheter',
+      'name' => 'pages-ouacheter'
     ];
 
-    $this->view('pages/dermatologie', $data);
-  }
-
-  public function fermentslactiques()
-  {
-    // Get categories
-    $categories = $this->categoryModel->getCategories();
-
-    $data = [
-      'categories' => $categories,
-      'title' => 'Ferments Lactiques',
-    ];
-
-    $this->view('pages/fermentslactiques', $data);
-  }
-
-  public function nutritioninfantile()
-  {
-    // Get categories
-    $categories = $this->categoryModel->getCategories();
-
-    $data = [
-      'categories' => $categories,
-      'title' => 'Nutrition Infantile',
-    ];
-
-    $this->view('pages/nutritioninfantile', $data);
-  }
-
-  public function orl()
-  {
-    // Get categories
-    $categories = $this->categoryModel->getCategories();
-
-    $data = [
-      'categories' => $categories,
-      'title' => 'ORL',
-    ];
-
-    $this->view('pages/orl', $data);
-  }
-
-  public function pneumologie()
-  {
-    // Get categories
-    $categories = $this->categoryModel->getCategories();
-
-    $data = [
-      'categories' => $categories,
-      'title' => 'Pneumologie',
-    ];
-
-    $this->view('pages/pneumologie', $data);
+    $this->view('pages/ouacheter', $data);
   }
 }
