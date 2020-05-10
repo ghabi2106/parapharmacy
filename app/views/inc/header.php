@@ -240,7 +240,7 @@
 			padding-right: 0px !important;
 			padding-bottom: 0px !important;
 			padding-left: 0px !important;
-			background: #f9f9f9 url("<?php echo URLROOT; ?>/img/proclair-new.gif") !important;
+			background: #f9f9f9 url("<?php echo URLROOT; ?>/img/slider/hair-slider.jpg") !important;
 			background-position: center !important;
 			background-repeat: no-repeat !important;
 			background-size: cover !important;
@@ -255,7 +255,7 @@
 			padding-right: 0px !important;
 			padding-bottom: 0px !important;
 			padding-left: 0px !important;
-			background: #f9f9f9 url("<?php echo URLROOT; ?>/img/slideshow_4.jpeg") !important;
+			background: #f9f9f9 url("<?php echo URLROOT; ?>/img/slider/chinois-slider.jpg") !important;
 			background-position: center !important;
 			background-repeat: no-repeat !important;
 			background-size: cover !important;
